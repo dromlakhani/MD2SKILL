@@ -16,65 +16,59 @@ Instead of reading a 40-page guideline to figure out how to classify a diabetic 
 
 ---
 
-## How It Works
-
-Each skill in this repo is derived from a published, peer-reviewed medical guideline. The conversion process follows a strict methodology:
-
-1. Read the guideline and identify components that involve a clinical decision or action
-2. Convert each component into a step-by-step workflow that mirrors how a clinician would think through the problem
-3. Add clinical guardrails (common pitfalls, mimics to rule out, things NOT to do)
-4. Source every skill back to the original guideline with DOI
-
-The result is a prompt that any AI assistant can use to guide a clinician through that specific clinical task.
-
----
-
-## Who Is This For?
-
-**Clinicians** who want AI-assisted decision support grounded in published guidelines, not generic AI knowledge.
-
-**Medical educators** who want to give trainees structured clinical reasoning tools.
-
-**Health tech developers** who want guideline-based logic they can plug into their products.
-
----
-
 ## Supported Platforms
 
-Every skill ships in three formats so it works regardless of which AI tool you use:
+Every skill ships in three formats:
 
 | File | Platform | How to Use |
 |------|----------|------------|
-| `SKILL.md` | **Claude** (Cowork / Claude Code) | Drop into your skills folder — auto-triggers when you describe a relevant case |
-| `chatgpt-system-prompt.md` | **ChatGPT** | Paste into a Custom GPT system prompt or Project Instructions |
-| `gemini-instructions.md` | **Gemini** | Paste into a Gem (gem.google.com) or use as system instructions |
+| `SKILL.md` | **Claude** | Drop into `.claude/skills/` — auto-triggers on relevant cases |
+| `chatgpt-system-prompt.md` | **ChatGPT** | Paste into Custom GPT or Project Instructions |
+| `gemini-instructions.md` | **Gemini** | Paste into a Gem at gem.google.com |
 
-### Claude Users (Easiest)
-Copy the skill folder into your `.claude/skills/` directory. Claude will automatically detect when to use it based on the case you describe.
+### Claude Users
+Copy the skill folder into your `.claude/skills/` directory. Claude detects when to use it automatically.
 
 ### ChatGPT Users
-1. Open the `chatgpt-system-prompt.md` file for the skill you want
-2. Copy the text between the `---BEGIN SYSTEM PROMPT---` and `---END SYSTEM PROMPT---` markers
-3. Paste it into: **ChatGPT Projects** → Project Instructions, or **Custom GPT** → Configure → System Prompt
-4. Start a conversation and describe your clinical case
+1. Open `chatgpt-system-prompt.md`
+2. Copy text between `---BEGIN SYSTEM PROMPT---` and `---END SYSTEM PROMPT---`
+3. Paste into: **ChatGPT Projects → Instructions** or **Custom GPT → Configure → System Prompt**
 
 ### Gemini Users
-1. Open the `gemini-instructions.md` file for the skill you want
-2. Copy the text between the `---BEGIN GEM INSTRUCTIONS---` and `---END GEM INSTRUCTIONS---` markers
-3. Go to **gem.google.com** → Create a Gem → paste into the Instructions field
-4. Start a conversation and describe your clinical case
+1. Open `gemini-instructions.md`
+2. Copy text between `---BEGIN GEM INSTRUCTIONS---` and `---END GEM INSTRUCTIONS---`
+3. Go to **gem.google.com → Create a Gem → Instructions**
 
 ---
 
-## Available Skills
+## Skills Library
 
-### Diabetic Foot Infections
-| Skill | Based On | What It Does |
-|-------|----------|--------------|
-| [DFI Severity Classifier](skills/dfi-severity-classifier/) | IWGDF/IDSA 2023 | Classifies diabetic foot infection severity (Grade 1-4 + osteomyelitis), recommends management |
-| [DFI Empiric Antibiotic Selector](skills/dfi-antibiotic-selector/) | IWGDF/IDSA 2023 | Selects first-line antibiotic regimen by grade and MRSA risk, with route and duration |
+### 🩺 Endocrinology
+**Diabetic Foot** — based on IWGDF/IDSA 2023
 
-*More skills coming soon — contributions welcome.*
+| Skill | What it does |
+|---|---|
+| [DFI Severity Classifier](skills/endocrinology/diabetic-foot/dfi-severity-classifier/) | Classify infection grade 1–4 with osteomyelitis screen and immediate management plan |
+| [DFI Empiric Antibiotic Selector](skills/endocrinology/diabetic-foot/dfi-antibiotic-selector/) | Select antibiotic, route, and duration by grade and MRSA risk |
+
+> Use these two together — Classifier first, then Antibiotic Selector.
+
+**Preventive Care** — based on ADA Standards of Care 2026
+
+| Skill | What it does |
+|---|---|
+| [Vaccination Checker](skills/endocrinology/preventive-care/diabetes-vaccination-checker/) | Review all 7 recommended vaccines for people with diabetes at a single visit |
+
+---
+
+### 🫀 Cardiology
+> Coming soon — contributions welcome
+
+### 🧫 Infectious Disease
+> Coming soon — contributions welcome
+
+### 🫘 Nephrology
+> Coming soon — contributions welcome
 
 ---
 
@@ -82,48 +76,58 @@ Copy the skill folder into your `.claude/skills/` directory. Claude will automat
 
 ```
 MD2SKILL/
-├── README.md                          ← You are here
-├── CONTRIBUTING.md                    ← How to add a new skill
-├── skills/
-│   └── dfi-severity-classifier/       ← One folder per skill
-│       ├── SKILL.md                   ← Claude format
-│       ├── chatgpt-system-prompt.md   ← ChatGPT format
-│       ├── gemini-instructions.md     ← Gemini format
-│       └── README.md                  ← What this skill does
+├── README.md
+├── CONTRIBUTING.md
 ├── meta/
-│   └── md2skill-converter.md          ← The methodology for converting guidelines
+│   └── md2skill-converter.md        ← Methodology for converting guidelines
+└── skills/
+    ├── endocrinology/
+    │   ├── diabetic-foot/
+    │   │   ├── dfi-severity-classifier/
+    │   │   └── dfi-antibiotic-selector/
+    │   └── preventive-care/
+    │       └── diabetes-vaccination-checker/
+    ├── cardiology/                   ← Coming soon
+    ├── infectious-disease/           ← Coming soon
+    └── nephrology/                   ← Coming soon
+```
+
+Each skill folder contains:
+```
+skill-name/
+├── SKILL.md                  ← Claude
+├── chatgpt-system-prompt.md  ← ChatGPT
+├── gemini-instructions.md    ← Gemini
+└── README.md                 ← What this skill does + example
 ```
 
 ---
 
-## How to Contribute a New Skill
+## How to Contribute
 
-1. Pick a published medical guideline with a clear decision framework
-2. Use the methodology in `meta/md2skill-converter.md` to identify skill candidates
+1. Pick a published guideline with a clear decision framework
+2. Follow the methodology in `meta/md2skill-converter.md`
 3. Build the skill as a step-by-step workflow (not a summary)
-4. Create all three platform versions (Claude, ChatGPT, Gemini)
-5. Submit a PR with the skill folder and a README
+4. Create all three platform versions
+5. Place it in the correct specialty folder and submit a PR
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for full instructions.
 
 ---
 
-## Important Disclaimer
+## Disclaimer
 
-These skills are **decision support tools**, not autonomous diagnostic systems. They are designed to assist qualified healthcare professionals by structuring clinical reasoning along guideline-recommended frameworks.
-
-They do **not** replace clinical judgment, physical examination, or the doctor-patient relationship. Always verify AI-assisted recommendations against the source guideline and your own clinical assessment.
+These skills are **clinical decision support tools**, not autonomous diagnostic systems. They assist qualified healthcare professionals by structuring reasoning along guideline-recommended frameworks. They do not replace clinical judgment, physical examination, or the doctor-patient relationship.
 
 ---
 
 ## License
 
-MIT License — use freely in clinical practice, education, and product development. Attribution appreciated.
+MIT License — use freely in clinical practice, education, and product development.
 
 ---
 
 ## Credits
 
 Built by [Dr. Om Lakhani](https://github.com/dromlakhani) using the MD2SKILL conversion methodology.
-
-Skills are derived from their respective source guidelines. All sources are cited within each skill file.
+All skills are cited back to their source guidelines.
