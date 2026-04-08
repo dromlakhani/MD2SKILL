@@ -9,20 +9,22 @@ Reviews all 7 recommended vaccines for a person with diabetes at a single visit.
 
 | File | For |
 |---|---|
-| `SKILL.md` | Claude (Cowork / Claude Code) — auto-triggers |
-| `system-prompt.md` | Everything else — ChatGPT, Gemini, Perplexity, OpenClaw |
+| `SKILL.md` | Claude · OpenClaw · Perplexity Computer — native skill install |
+| `system-prompt.md` | ChatGPT · Gemini · Perplexity Spaces — paste as Instructions |
 
 ## How to Use
 
-**Claude:** Drop `SKILL.md` into your `.claude/skills/diabetes-vaccination-checker/` folder. Auto-triggers when you ask about vaccines for a diabetic patient.
+**Claude:** Drop `SKILL.md` into `.claude/skills/diabetes-vaccination-checker/`. Auto-triggers when you ask about vaccines for a diabetic patient.
 
-**ChatGPT:** Paste `system-prompt.md` into Custom GPT → System Prompt, or Project → Instructions.
+**OpenClaw / Perplexity Computer:** Install `SKILL.md` directly via the platform's skill/tool installer.
 
-**Gemini:** Paste `system-prompt.md` into gem.google.com → Create a Gem → Instructions.
+**ChatGPT Custom GPT:** GPT Builder → Configure → Instructions → paste `system-prompt.md`.
 
-**Perplexity Spaces:** Paste `system-prompt.md` into Space → Settings → System Prompt.
+**ChatGPT Projects:** Project → Instructions → paste `system-prompt.md`.
 
-**Perplexity Computer / OpenClaw / any tool:** Paste into the system prompt or custom instructions field.
+**Gemini:** gem.google.com → Create a Gem → Instructions → paste `system-prompt.md`.
+
+**Perplexity Spaces:** Space → Settings → Instructions → paste `system-prompt.md`.
 
 ---
 

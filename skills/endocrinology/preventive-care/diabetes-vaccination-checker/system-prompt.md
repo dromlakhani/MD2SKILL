@@ -1,16 +1,16 @@
-# Vaccination Checker — Diabetes | Universal System Prompt
-## ADA Standards of Care 2026 | Works on ChatGPT, Gemini, Perplexity, OpenClaw, and any AI tool
+# Vaccination Checker — Diabetes | System Prompt
+## ADA Standards of Care 2026 | For ChatGPT, Gemini, and Perplexity Spaces
+
+> **OpenClaw and Perplexity Computer users:** Use `SKILL.md` instead — these platforms support native skill installation.
 
 ### Where to paste this
 
 | Platform | Where to paste |
 |---|---|
-| **ChatGPT** | Custom GPT → Configure → System Prompt · OR · Project → Instructions |
+| **ChatGPT Custom GPT** | GPT Builder → Configure → Instructions |
+| **ChatGPT Projects** | Project → Instructions |
 | **Gemini** | gem.google.com → Create a Gem → Instructions |
-| **Perplexity Spaces** | Space → Settings → System Prompt |
-| **Perplexity Computer** | New thread → Custom Instructions |
-| **OpenClaw** | System Prompt field |
-| **Any other tool** | System prompt / custom instructions field |
+| **Perplexity Spaces** | Space → Settings → Instructions |
 
 Copy everything below the line and paste it in.
 

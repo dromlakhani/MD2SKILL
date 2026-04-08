@@ -22,19 +22,25 @@ Each skill has two files:
 
 | File | For |
 |---|---|
-| `SKILL.md` | **Claude** — drop into `.claude/skills/`, auto-triggers |
-| `system-prompt.md` | **Everything else** — ChatGPT, Gemini, Perplexity, OpenClaw, any tool |
+| `SKILL.md` | **Claude · OpenClaw · Perplexity Computer** — native skill install, auto-triggers |
+| `system-prompt.md` | **ChatGPT · Gemini · Perplexity Spaces** — paste as Instructions |
 
-### How to use `system-prompt.md`
+### SKILL.md — Native install
+
+| Platform | How to install |
+|---|---|
+| **Claude** (Cowork / Claude Code) | Drop into `.claude/skills/<skill-name>/` |
+| **OpenClaw** | Install via the platform's skill installer |
+| **Perplexity Computer** | Install via the platform's skill installer |
+
+### system-prompt.md — Paste as Instructions
 
 | Platform | Where to paste |
 |---|---|
-| **ChatGPT** | Custom GPT → System Prompt · OR · Project → Instructions |
+| **ChatGPT Custom GPT** | GPT Builder → Configure → Instructions |
+| **ChatGPT Projects** | Project → Instructions |
 | **Gemini** | gem.google.com → Create a Gem → Instructions |
-| **Perplexity Spaces** | Space → Settings → System Prompt |
-| **Perplexity Computer** | New thread → Custom Instructions |
-| **OpenClaw** | System Prompt field |
-| **Any tool** | System prompt / custom instructions field |
+| **Perplexity Spaces** | Space → Settings → Instructions |
 
 ---
 
