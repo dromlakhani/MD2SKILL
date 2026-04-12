@@ -67,6 +67,28 @@ Each skill has two files:
 |---|---|
 | [Vaccination Checker](skills/endocrinology/preventive-care/diabetes-vaccination-checker/) | Review all 7 recommended vaccines for people with diabetes at a single visit |
 
+**Pediatric Obesity** — CMAJ 2025
+
+| Skill | What it does |
+|---|---|
+| [Intervention Selector](skills/endocrinology/pediatric-obesity/pediatric-obesity-intervention-selector/) | Select treatment tier (behavioural → pharmacologic → surgical) by age and history |
+| [Pharmacotherapy Selector](skills/endocrinology/pediatric-obesity/pediatric-obesity-pharmacotherapy-selector/) | Choose GLP-1RA, metformin, or orlistat for children aged ≥12 with monitoring plan |
+| [Surgical Eligibility Screener](skills/endocrinology/pediatric-obesity/pediatric-obesity-surgical-screener/) | Bariatric surgery eligibility checklist for children aged ≥13 (LSG or RYGB) |
+| [Non-Stigmatising Consultation](skills/endocrinology/pediatric-obesity/pediatric-obesity-consultation/) | 5As + 4Ms framework for conducting a pediatric obesity visit |
+
+---
+
+### 🧒 Pediatric Endocrinology
+
+**Pediatric Obesity** — CMAJ 2025
+
+| Skill | What it does |
+|---|---|
+| [Intervention Selector](skills/pediatric-endocrinology/pediatric-obesity/pediatric-obesity-intervention-selector/) | Select treatment tier (behavioural → pharmacologic → surgical) by age and history |
+| [Pharmacotherapy Selector](skills/pediatric-endocrinology/pediatric-obesity/pediatric-obesity-pharmacotherapy-selector/) | Choose GLP-1RA, metformin, or orlistat for children aged ≥12 with monitoring plan |
+| [Surgical Eligibility Screener](skills/pediatric-endocrinology/pediatric-obesity/pediatric-obesity-surgical-screener/) | Bariatric surgery eligibility checklist for children aged ≥13 (LSG or RYGB) |
+| [Non-Stigmatising Consultation](skills/pediatric-endocrinology/pediatric-obesity/pediatric-obesity-consultation/) | 5As + 4Ms framework for conducting a pediatric obesity visit |
+
 ---
 
 ### 🫃 Gastroenterology
@@ -115,11 +137,17 @@ MD2SKILL/
     │       └── diabetes-vaccination-checker/
     ├── gastroenterology/
     │   └── glp1-endoscopy-pre-procedure/
-    └── pediatric-medicine/
-        ├── pediatric-obesity-intervention-selector/
-        ├── pediatric-obesity-pharmacotherapy-selector/
-        ├── pediatric-obesity-surgical-screener/
-        └── pediatric-obesity-consultation/
+    ├── pediatric-medicine/
+    │   ├── pediatric-obesity-intervention-selector/
+    │   ├── pediatric-obesity-pharmacotherapy-selector/
+    │   ├── pediatric-obesity-surgical-screener/
+    │   └── pediatric-obesity-consultation/
+    └── pediatric-endocrinology/
+        └── pediatric-obesity/
+            ├── pediatric-obesity-intervention-selector/
+            ├── pediatric-obesity-pharmacotherapy-selector/
+            ├── pediatric-obesity-surgical-screener/
+            └── pediatric-obesity-consultation/
 ```
 
 Each skill folder:
