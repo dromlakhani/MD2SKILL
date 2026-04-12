@@ -75,6 +75,7 @@ Each skill has two files:
 | [Pharmacotherapy Selector](skills/endocrinology/pediatric-obesity/pediatric-obesity-pharmacotherapy-selector/) | Choose GLP-1RA, metformin, or orlistat for children aged ≥12 with monitoring plan |
 | [Surgical Eligibility Screener](skills/endocrinology/pediatric-obesity/pediatric-obesity-surgical-screener/) | Bariatric surgery eligibility checklist for children aged ≥13 (LSG or RYGB) |
 | [Non-Stigmatising Consultation](skills/endocrinology/pediatric-obesity/pediatric-obesity-consultation/) | 5As + 4Ms framework for conducting a pediatric obesity visit |
+| [Atypical Etiology Screener](skills/endocrinology/pediatric-obesity/pediatric-obesity-etiology-screener/) | Red flag screen for monogenic, syndromic, or secondary endocrine causes (Prader-Willi, Cushing, ROHHAD, leptin deficiency, etc.) |
 
 ---
 
@@ -88,6 +89,7 @@ Each skill has two files:
 | [Pharmacotherapy Selector](skills/pediatric-endocrinology/pediatric-obesity/pediatric-obesity-pharmacotherapy-selector/) | Choose GLP-1RA, metformin, or orlistat for children aged ≥12 with monitoring plan |
 | [Surgical Eligibility Screener](skills/pediatric-endocrinology/pediatric-obesity/pediatric-obesity-surgical-screener/) | Bariatric surgery eligibility checklist for children aged ≥13 (LSG or RYGB) |
 | [Non-Stigmatising Consultation](skills/pediatric-endocrinology/pediatric-obesity/pediatric-obesity-consultation/) | 5As + 4Ms framework for conducting a pediatric obesity visit |
+| [Atypical Etiology Screener](skills/pediatric-endocrinology/pediatric-obesity/pediatric-obesity-etiology-screener/) | Red flag screen for monogenic, syndromic, or secondary endocrine causes (Prader-Willi, Cushing, ROHHAD, leptin deficiency, etc.) |
 
 ---
 
@@ -111,6 +113,7 @@ Each skill has two files:
 | [Pharmacotherapy Selector](skills/pediatric-medicine/pediatric-obesity-pharmacotherapy-selector/) | Choose between GLP-1RA, metformin, or orlistat for children aged ≥12 with monitoring plan |
 | [Surgical Eligibility Screener](skills/pediatric-medicine/pediatric-obesity-surgical-screener/) | Full checklist for bariatric surgery eligibility in children aged ≥13 (LSG or RYGB) |
 | [Non-Stigmatising Consultation](skills/pediatric-medicine/pediatric-obesity-consultation/) | Step-by-step 5As + 4Ms framework for conducting a pediatric obesity visit |
+| [Atypical Etiology Screener](skills/pediatric-medicine/pediatric-obesity-etiology-screener/) | Red flag screen for monogenic, syndromic, or secondary endocrine causes (Prader-Willi, Cushing, ROHHAD, leptin deficiency, etc.) |
 
 ---
 
