@@ -79,6 +79,19 @@ Each skill has two files:
 
 ---
 
+### 👶 Pediatric Medicine
+
+**Pediatric Obesity** — CMAJ 2025
+
+| Skill | What it does |
+|---|---|
+| [Intervention Selector](skills/pediatric-medicine/pediatric-obesity-intervention-selector/) | Select the right treatment tier (behavioural → pharmacologic → surgical) based on age and history |
+| [Pharmacotherapy Selector](skills/pediatric-medicine/pediatric-obesity-pharmacotherapy-selector/) | Choose between GLP-1RA, metformin, or orlistat for children aged ≥12 with monitoring plan |
+| [Surgical Eligibility Screener](skills/pediatric-medicine/pediatric-obesity-surgical-screener/) | Full checklist for bariatric surgery eligibility in children aged ≥13 (LSG or RYGB) |
+| [Non-Stigmatising Consultation](skills/pediatric-medicine/pediatric-obesity-consultation/) | Step-by-step 5As + 4Ms framework for conducting a pediatric obesity visit |
+
+---
+
 ### 🫀 Cardiology · 🫘 Nephrology · 🫁 Respiratory
 > Coming soon — contributions welcome
 
@@ -100,8 +113,13 @@ MD2SKILL/
     ├── endocrinology/
     │   └── preventive-care/
     │       └── diabetes-vaccination-checker/
-    └── gastroenterology/
-        └── glp1-endoscopy-pre-procedure/
+    ├── gastroenterology/
+    │   └── glp1-endoscopy-pre-procedure/
+    └── pediatric-medicine/
+        ├── pediatric-obesity-intervention-selector/
+        ├── pediatric-obesity-pharmacotherapy-selector/
+        ├── pediatric-obesity-surgical-screener/
+        └── pediatric-obesity-consultation/
 ```
 
 Each skill folder:
