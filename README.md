@@ -95,6 +95,40 @@ Each skill has two files:
 
 ---
 
+**GLP-1 Receptor Agonists**
+
+| Skill | What it does |
+|---|---|
+| [Candidacy Myths Checker](skills/endocrinology/glp1-receptor-agonists/glp1-candidacy-myths-checker/) | Debunks common exclusions — eating disorders, elderly ≥75, upper GI disease |
+| [Dose Escalation Troubleshooter](skills/endocrinology/glp1-receptor-agonists/glp1-dose-escalation-troubleshooter/) | Extend, hold, or reduce dose when GI AEs appear during titration |
+| [GI AE Symptom Advisor](skills/endocrinology/glp1-receptor-agonists/glp1-gi-ae-symptom-advisor/) | Dietary and lifestyle advice for nausea/vomiting/diarrhoea on GLP-1s |
+| [GI AE Pharmacological Rescue](skills/endocrinology/glp1-receptor-agonists/glp1-gi-ae-pharmacological-rescue/) | Select antiemetic or antidiarrhoeal rescue medication |
+| [GI AE Patient Education](skills/endocrinology/glp1-receptor-agonists/glp1-gi-ae-patient-education/) | Pre-start counselling on GI side effects |
+| [Complex Patient Scenarios](skills/endocrinology/glp1-receptor-agonists/glp1-complex-patient-scenarios/) | Expert-consensus management in complex GI AE scenarios |
+| [Insulin/SU Dose Reduction](skills/endocrinology/glp1-receptor-agonists/glp1-insulin-su-dose-reduction/) | Reduce basal insulin or sulfonylurea when starting/escalating GLP-1 |
+| [Oral Contraceptive Interaction](skills/endocrinology/glp1-receptor-agonists/glp1-oral-contraceptive-interaction/) | OCP interaction counselling for tirzepatide |
+| [Pancreatobiliary Risk Monitor](skills/endocrinology/glp1-receptor-agonists/glp1-pancreatobiliary-risk-monitor/) | Monitor for pancreatitis, cholelithiasis, lipase/amylase elevation |
+| [Perioperative Aspiration Guide](skills/endocrinology/glp1-receptor-agonists/glp1-perioperative-aspiration/) | Perioperative decisions for patients on GLP-1 agonists |
+| [Obesity Agent N/V Profile](skills/endocrinology/glp1-receptor-agonists/glp1-obesity-agent-nv-profile/) | Nausea/vomiting rates across semaglutide, tirzepatide, liraglutide, etc. |
+
+**Inpatient Diabetes / Glucocorticoid-Induced Hyperglycaemia (GCIH)**
+
+| Skill | What it does |
+|---|---|
+| [GCIH Patient Classifier](skills/endocrinology/inpatient-diabetes/gcih-patient-classifier/) | Classify as established diabetic (Group 1) vs new GCIH (Group 2) |
+| [GCIH Premeal Insulin Scale](skills/endocrinology/inpatient-diabetes/gcih-premeal-insulin-scale/) | Supplemental premeal short-acting insulin dose |
+| [GCIH Correctional Insulin Selector](skills/endocrinology/inpatient-diabetes/gcih-correctional-insulin-selector/) | Correctional insulin type and dose selection |
+| [GCIH Basal Insulin Titration](skills/endocrinology/inpatient-diabetes/gcih-basal-insulin-titration/) | Day-to-day basal insulin adjustment in GCIH |
+| [Basal Insulin Titration](skills/endocrinology/inpatient-diabetes/basal-insulin-titration/) | Lantus/Basaglar/Ryzodeg titration by fasting BGL trend |
+
+**Phaeochromocytoma**
+
+| Skill | What it does |
+|---|---|
+| [Screening Strategy](skills/endocrinology/phaeochromocytoma/pheo-screening-strategy/) | First-line screening logic for pheo/paraganglioma |
+| [Biochemical Confirmation](skills/endocrinology/phaeochromocytoma/pheo-biochemical-confirmation/) | Interpret metanephrine results and handle borderline elevations |
+| [Pre-operative Alpha-Blockade](skills/endocrinology/phaeochromocytoma/pheo-preoperative-alpha-blockade/) | Alpha-blockade titration and volume expansion protocol |
+
 **Diabetes Technology** — Medtronic MiniMed 780G / CareLink
 
 | Skill | What it does |
@@ -126,6 +160,27 @@ Each skill has two files:
 | [Non-Stigmatising Consultation](skills/pediatric-medicine/pediatric-obesity-consultation/) | Step-by-step 5As + 4Ms framework for conducting a pediatric obesity visit |
 | [Atypical Etiology Screener](skills/pediatric-medicine/pediatric-obesity-etiology-screener/) | Red flag screen for monogenic, syndromic, or secondary endocrine causes (Prader-Willi, Cushing, ROHHAD, leptin deficiency, etc.) |
 | [Monogenic Obesity Diagnosis](skills/pediatric-medicine/monogenic-obesity-diagnosis/) | Step-by-step leptin-melanocortin pathway algorithm — syndromic (PWS, BBS, AHO) vs. monogenic (LEP, LEPR, POMC, MC4R) with pharmacotherapy mapping |
+
+---
+
+### 🩸 Haematology / Oncology
+
+**Multiple Myeloma**
+
+| Skill | What it does |
+|---|---|
+| [Diagnostic Workup](skills/haematology/multiple-myeloma/mm-diagnostic-workup/) | Order correct workup at 4 timepoints — diagnosis, response assessment, relapse, MRD |
+| [ASCT Eligibility](skills/haematology/multiple-myeloma/mm-asct-eligibility/) | High-dose melphalan + autologous stem cell transplant eligibility for NDMM |
+| [MRD Assessment](skills/haematology/multiple-myeloma/mm-mrd-assessment/) | When and how to assess minimal residual disease (NGF, NGS, PET-CT) |
+
+---
+
+### 🫀 Transplant Medicine
+
+| Skill | What it does |
+|---|---|
+| [DBD Donor Kidney Eligibility](skills/transplant-medicine/dbd-diabetes-hypertension-donor-eligibility/) | Suitability of brain-dead donor kidneys with diabetes/hypertension |
+| [MAPI Score Calculator](skills/transplant-medicine/mapi-score-calculator/) | Maryland Aggregate Pathology Index from donor kidney biopsy to predict graft survival |
 
 ---
 
