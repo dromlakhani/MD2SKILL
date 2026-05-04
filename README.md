@@ -25,6 +25,19 @@ Each skill has two files:
 | `SKILL.md` | **Claude · OpenClaw · Perplexity Computer** — native skill install, auto-triggers |
 | `system-prompt.md` | **ChatGPT · Gemini · Perplexity Spaces** — paste as Instructions |
 
+### Use with ChatGPT Custom GPTs
+
+Two modes — see **[`meta/chatgpt-custom-gpt-setup.md`](meta/chatgpt-custom-gpt-setup.md)** for full instructions:
+
+| Mode | When to use | What to do |
+|---|---|---|
+| **Single-skill GPT** | One GPT, one clinical task | Paste `system-prompt.md` into Instructions field |
+| **Multi-skill GPT** | One GPT, multiple related skills | Paste master routing prompt into Instructions + upload `SKILL.md` files to Knowledge |
+
+The **[`meta/chatgpt-master-system-prompt.md`](meta/chatgpt-master-system-prompt.md)** file contains a copy-paste ready master prompt with routing logic, skill chaining, structured response format, and a worked example (Transplant Medicine — DBD Donor Eligibility + MAPI Score Calculator).
+
+---
+
 ### SKILL.md — Native install
 
 | Platform | How to install |
@@ -206,7 +219,9 @@ MD2SKILL/
 ├── README.md
 ├── CONTRIBUTING.md
 ├── meta/
-│   └── md2skill-converter.md       ← Methodology for converting guidelines
+│   ├── md2skill-converter.md              ← How to convert a guideline into a skill
+│   ├── chatgpt-custom-gpt-setup.md        ← How to use skills in ChatGPT Custom GPTs
+│   └── chatgpt-master-system-prompt.md    ← Copy-paste master prompt for multi-skill GPTs
 └── skills/
     ├── infectious-disease/
     │   └── diabetic-foot/
