@@ -4,6 +4,20 @@ This guide explains how to use MD2SKILL skills in ChatGPT — either as a single
 
 ---
 
+## Citation Philosophy
+
+MD2SKILL is built on one non-negotiable principle: **every output must be citable and auditable — not a black box.**
+
+Every key point in every response must carry two levels of citation:
+- **Skill-level** `[SKILL-NAME § Step N]` — which skill file and section the claim came from
+- **Guideline-level** — the published source (journal, authors, year, DOI) from the `Source:` line in that skill file
+
+This allows a clinician to trace any output: **claim → skill section → published guideline.** It is the same standard as a clinical reference, not a chatbot response.
+
+The master system prompt enforces this through mandatory inline citations on every claim and a required References section at the end of every response.
+
+---
+
 ## Claude Skills vs. ChatGPT Custom GPTs — Honest Comparison
 
 Understanding what ChatGPT can and cannot do with these files saves you from a broken setup.
