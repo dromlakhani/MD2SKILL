@@ -16,6 +16,44 @@ Instead of reading a 40-page guideline to classify a diabetic foot infection, yo
 
 ---
 
+## The MD2SKILL Pipeline
+
+```mermaid
+flowchart TD
+    A["🔍 Step 1 — Identify the Skill Gap\nWhat clinical decision is hard, slow,\nor inconsistent at the bedside?"]
+    B["📚 Step 2 — Find the Evidence\nLocate the published guideline or research\narticle that addresses the skill gap"]
+    C["⚙️ Step 3 — Process with MD2SKILL Identifier\nExtract actionable decision components\nfrom the guideline using md2skill-converter.md"]
+    D["🛠️ Step 4 — Build the Skill\nCreate SKILL.md + system-prompt.md\nfor each identified component"]
+    E["🧠 Step 5 — Refine with Expertise\nAdjust, validate, and enrich the skill\nusing your own clinical knowledge"]
+    F["🚀 Step 6 — Deploy\nUse the skill in your AI platform of choice"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+
+    F --> G["Claude\n(SKILL.md)"]
+    F --> H["ChatGPT\n(Custom GPT)"]
+    F --> I["Gemini\n(Gem)"]
+    F --> J["Perplexity\n(Spaces)"]
+
+    style A fill:#1e3a5f,color:#fff,stroke:#1e3a5f
+    style B fill:#1e3a5f,color:#fff,stroke:#1e3a5f
+    style C fill:#1e3a5f,color:#fff,stroke:#1e3a5f
+    style D fill:#1e3a5f,color:#fff,stroke:#1e3a5f
+    style E fill:#1e3a5f,color:#fff,stroke:#1e3a5f
+    style F fill:#2d6a4f,color:#fff,stroke:#2d6a4f
+    style G fill:#40916c,color:#fff,stroke:#40916c
+    style H fill:#40916c,color:#fff,stroke:#40916c
+    style I fill:#40916c,color:#fff,stroke:#40916c
+    style J fill:#40916c,color:#fff,stroke:#40916c
+```
+
+> Full methodology: [`meta/md2skill-philosophy.md`](meta/md2skill-philosophy.md) · Skill builder: [`meta/md2skill-converter.md`](meta/md2skill-converter.md)
+
+---
+
 ## Supported Platforms
 
 Each skill has two files:
@@ -219,8 +257,9 @@ MD2SKILL/
 ├── README.md
 ├── CONTRIBUTING.md
 ├── meta/
-│   ├── md2skill-converter.md              ← How to convert a guideline into a skill
-│   ├── chatgpt-custom-gpt-setup.md        ← How to use skills in ChatGPT Custom GPTs
+│   ├── md2skill-philosophy.md             ← The 6-step pipeline (this document)
+│   ├── md2skill-converter.md              ← How to convert a guideline into a skill (Steps 3–4)
+│   ├── chatgpt-custom-gpt-setup.md        ← How to use skills in ChatGPT Custom GPTs (Step 6)
 │   └── chatgpt-master-system-prompt.md    ← Copy-paste master prompt for multi-skill GPTs
 └── skills/
     ├── infectious-disease/
