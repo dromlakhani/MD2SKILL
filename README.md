@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/md2skill-logo.png" alt="MD2SKILL Logo" width="160"/>
+</p>
+
 # MD2SKILL
 
 **Convert your MD to Skill.MD**
@@ -324,3 +328,11 @@ These are clinical decision support tools, not autonomous diagnostic systems. Th
 MIT — use freely in clinical practice, education, and product development.
 
 **Built by [Dr. Om Lakhani](https://github.com/dromlakhani)**
+
+---
+
+<p align="center">
+  <img src="assets/md2skill-logo.png" alt="MD2SKILL" width="80"/>
+  <br/>
+  <a href="https://md2skill.org">md2skill.org</a> · <a href="https://github.com/dromlakhani/MD2SKILL">GitHub</a>
+</p>
