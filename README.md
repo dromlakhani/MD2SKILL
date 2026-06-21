@@ -8,6 +8,10 @@
 
 An open-source library of clinical decision support skills built from published medical guidelines. Each skill is a structured, step-by-step prompt that turns any AI assistant into a bedside clinical tool.
 
+<p align="center">
+  <strong>305 skills</strong> · <strong>11 specialties</strong> · grounded in published guidelines · MIT licensed
+</p>
+
 ---
 
 ## What Is This?
@@ -101,156 +105,94 @@ The **[`meta/chatgpt-master-system-prompt.md`](meta/chatgpt-master-system-prompt
 
 ## Skills Library
 
-### 🧫 Infectious Disease
+305 skills across 11 specialties. The tables below show coverage by sub-specialty — click any folder link to browse the skills inside.
 
-**Diabetic Foot** — IWGDF/IDSA 2023
+### 🩺 Endocrinology — 271 skills
 
-| Skill | What it does |
-|---|---|
-| [DFI Severity Classifier](skills/infectious-disease/diabetic-foot/dfi-severity-classifier/) | Classify infection grade 1–4 with osteomyelitis screen and management plan |
-| [DFI Empiric Antibiotic Selector](skills/infectious-disease/diabetic-foot/dfi-antibiotic-selector/) | Select antibiotic, route, and duration by grade and MRSA risk |
+| Sub-specialty | Skills | Scope |
+|---|---:|---|
+| [Phaeochromocytoma & PPGL](skills/endocrinology/phaeochromocytoma/) | 70 | Full ATA-PPGL + JES-PPGL set — screening, biochemistry, imaging modality selection (123I-MIBG / 68Ga-DOTATATE / 18F-FDG-PET), genetic testing, GAPP/COPPS/PASS metastasis risk scoring, surgical approach, perioperative alpha-blockade, pregnancy, metastatic treatment, radionuclide therapy |
+| [Lipidology](skills/endocrinology/lipidology/) | 52 | Statin/non-statin selection, ASCVD risk, lipoprotein(a), TG management, lipid monitoring, familial dyslipidaemia, special populations |
+| [Adrenal (Primary Aldosteronism)](skills/endocrinology/adrenal/) | 34 | Endocrine Society + JES-PA — ARR screening, confirmatory testing, AVS protocol & interpretation, subtype classification, MRA selection, pregnancy management |
+| [Inpatient Diabetes & GCIH](skills/endocrinology/inpatient-diabetes/) | 26 | Basal/correctional/premeal insulin protocols, GCIH classification & titration, perioperative BG targets, inpatient CGM |
+| [Metabolic Bone (Paget's Disease)](skills/endocrinology/metabolic-bone/) | 20 | Diagnostic workup, treatment indication, bisphosphonate selection, monitoring, complications |
+| [GLP-1 Receptor Agonists](skills/endocrinology/glp1-receptor-agonists/) | 17 | Candidacy, dose escalation, GI AE management, perioperative aspiration, ocular safety (NAION, DR), prescribing guides (Mounjaro, Wegovy, Noveltreat) |
+| [Preventive Care](skills/endocrinology/preventive-care/) | 15 | ADA vaccination, vitamin D testing & supplementation |
+| [Diabetes in Pregnancy](skills/endocrinology/diabetes-in-pregnancy/) | 10 | Pre-existing diabetes management in pregnancy (PDM) |
+| [Diabetes Technology](skills/endocrinology/diabetes-technology/) | 6 | Medtronic 780G adjustment, CareLink interpretation, CGM/rtCGM |
+| [Pediatric Obesity](skills/endocrinology/pediatric-obesity/) | 6 | CMAJ 2025 — intervention selector, pharmacotherapy, surgical screener, non-stigmatising consultation, etiology screener, monogenic diagnosis |
+| [Thyroid Cancer](skills/endocrinology/thyroid-cancer/) | 4 | ATA DTC initial risk stratification, dynamic risk reclassification, Bethesda cytology management, RAI decision |
+| [Calcium Disorders](skills/endocrinology/calcium-disorders/) | 4 | Hypercalcemia severity, diagnostic algorithm, malignancy workup, medication-induced screen |
+| [Thyroid Nodule](skills/endocrinology/thyroid-nodule/) | 2 | EU-TIRADS classifier, ATA FNA decision |
+| [T2DM](skills/endocrinology/t2dm/) | 1 + 2 root | HbA1c targets & intensification, comorbidity-driven medicine selector, newly-diagnosed OAD selector |
+| [Obesity (general)](skills/endocrinology/obesity/) | 1 | Meal planner |
+| [Hypogonadism](skills/endocrinology/hypogonadism/) | 1 | Testosterone |
 
-> Use these two together — Classifier first, then Antibiotic Selector.
+### 🧒 Pediatric Endocrinology — 10 skills
 
----
+| Sub-specialty | Skills | Scope |
+|---|---:|---|
+| [Pediatric Obesity](skills/pediatric-endocrinology/pediatric-obesity/) | 6 | Cross-listed with endocrinology — CMAJ 2025 full set |
+| [Congenital Adrenal Hyperplasia (CAH)](skills/pediatric-endocrinology/cah/) | 4 | Newborn screening 17-OHP interpretation, newborn subtype differentiator, infant hydrocortisone dosing, adrenal crisis protocol |
 
-### 🩺 Endocrinology
+### 👶 Pediatric Medicine — 6 skills
 
-**Preventive Care** — ADA Standards of Care 2026
+| Folder | Skills | Scope |
+|---|---:|---|
+| [Pediatric Obesity](skills/pediatric-medicine/) | 6 | Cross-listed CMAJ 2025 set for non-endocrine pediatric workflow |
 
-| Skill | What it does |
-|---|---|
-| [Vaccination Checker](skills/endocrinology/preventive-care/diabetes-vaccination-checker/) | Review all 7 recommended vaccines for people with diabetes at a single visit |
+### 🧠 Neurology — 4 skills
 
-**Pediatric Obesity** — CMAJ 2025
+| Sub-specialty | Skills | Scope |
+|---|---:|---|
+| [Vestibular / Dizziness](skills/neurology/vestibular/) | 4 | Dizziness type classifier, red-flag screener, peripheral vs central vertigo, BPPV differential |
 
-| Skill | What it does |
-|---|---|
-| [Intervention Selector](skills/endocrinology/pediatric-obesity/pediatric-obesity-intervention-selector/) | Select treatment tier (behavioural → pharmacologic → surgical) by age and history |
-| [Pharmacotherapy Selector](skills/endocrinology/pediatric-obesity/pediatric-obesity-pharmacotherapy-selector/) | Choose GLP-1RA, metformin, or orlistat for children aged ≥12 with monitoring plan |
-| [Surgical Eligibility Screener](skills/endocrinology/pediatric-obesity/pediatric-obesity-surgical-screener/) | Bariatric surgery eligibility checklist for children aged ≥13 (LSG or RYGB) |
-| [Non-Stigmatising Consultation](skills/endocrinology/pediatric-obesity/pediatric-obesity-consultation/) | 5As + 4Ms framework for conducting a pediatric obesity visit |
-| [Atypical Etiology Screener](skills/endocrinology/pediatric-obesity/pediatric-obesity-etiology-screener/) | Red flag screen for monogenic, syndromic, or secondary endocrine causes (Prader-Willi, Cushing, ROHHAD, leptin deficiency, etc.) |
-| [Monogenic Obesity Diagnosis](skills/endocrinology/pediatric-obesity/monogenic-obesity-diagnosis/) | Step-by-step leptin-melanocortin pathway algorithm — syndromic (PWS, BBS, AHO) vs. monogenic (LEP, LEPR, POMC, MC4R) with pharmacotherapy mapping |
+### 🫃 Gastroenterology — 4 skills
 
----
+| Sub-specialty | Skills | Scope |
+|---|---:|---|
+| [Constipation](skills/gastroenterology/constipation/) | 3 | Laxative selector, defecatory disorder workup, Movicol prescribing |
+| [Pre-Procedure (GLP-1)](skills/gastroenterology/glp1-endoscopy-pre-procedure/) | 1 | AGA 2024 — proceed / postpone / modify for patients on GLP-1 RAs |
 
-### 🧒 Pediatric Endocrinology
+### 🩸 Haematology & Oncology — 3 skills
 
-**Pediatric Obesity** — CMAJ 2025
+| Sub-specialty | Skills | Scope |
+|---|---:|---|
+| [Multiple Myeloma](skills/haematology/multiple-myeloma/) | 3 | Diagnostic workup, ASCT eligibility, MRD assessment |
 
-| Skill | What it does |
-|---|---|
-| [Intervention Selector](skills/pediatric-endocrinology/pediatric-obesity/pediatric-obesity-intervention-selector/) | Select treatment tier (behavioural → pharmacologic → surgical) by age and history |
-| [Pharmacotherapy Selector](skills/pediatric-endocrinology/pediatric-obesity/pediatric-obesity-pharmacotherapy-selector/) | Choose GLP-1RA, metformin, or orlistat for children aged ≥12 with monitoring plan |
-| [Surgical Eligibility Screener](skills/pediatric-endocrinology/pediatric-obesity/pediatric-obesity-surgical-screener/) | Bariatric surgery eligibility checklist for children aged ≥13 (LSG or RYGB) |
-| [Non-Stigmatising Consultation](skills/pediatric-endocrinology/pediatric-obesity/pediatric-obesity-consultation/) | 5As + 4Ms framework for conducting a pediatric obesity visit |
-| [Atypical Etiology Screener](skills/pediatric-endocrinology/pediatric-obesity/pediatric-obesity-etiology-screener/) | Red flag screen for monogenic, syndromic, or secondary endocrine causes (Prader-Willi, Cushing, ROHHAD, leptin deficiency, etc.) |
-| [Monogenic Obesity Diagnosis](skills/pediatric-endocrinology/pediatric-obesity/monogenic-obesity-diagnosis/) | Step-by-step leptin-melanocortin pathway algorithm — syndromic (PWS, BBS, AHO) vs. monogenic (LEP, LEPR, POMC, MC4R) with pharmacotherapy mapping |
+### 🫀 Transplant Medicine — 2 skills
 
----
+| Folder | Skills | Scope |
+|---|---:|---|
+| [Kidney Transplant](skills/transplant-medicine/) | 2 | DBD donor eligibility (DM/HTN), MAPI score calculator |
 
-**GLP-1 Receptor Agonists**
+### 🧫 Infectious Disease — 2 skills
 
-| Skill | What it does |
-|---|---|
-| [Candidacy Myths Checker](skills/endocrinology/glp1-receptor-agonists/glp1-candidacy-myths-checker/) | Debunks common exclusions — eating disorders, elderly ≥75, upper GI disease |
-| [Dose Escalation Troubleshooter](skills/endocrinology/glp1-receptor-agonists/glp1-dose-escalation-troubleshooter/) | Extend, hold, or reduce dose when GI AEs appear during titration |
-| [GI AE Symptom Advisor](skills/endocrinology/glp1-receptor-agonists/glp1-gi-ae-symptom-advisor/) | Dietary and lifestyle advice for nausea/vomiting/diarrhoea on GLP-1s |
-| [GI AE Pharmacological Rescue](skills/endocrinology/glp1-receptor-agonists/glp1-gi-ae-pharmacological-rescue/) | Select antiemetic or antidiarrhoeal rescue medication |
-| [GI AE Patient Education](skills/endocrinology/glp1-receptor-agonists/glp1-gi-ae-patient-education/) | Pre-start counselling on GI side effects |
-| [Complex Patient Scenarios](skills/endocrinology/glp1-receptor-agonists/glp1-complex-patient-scenarios/) | Expert-consensus management in complex GI AE scenarios |
-| [Insulin/SU Dose Reduction](skills/endocrinology/glp1-receptor-agonists/glp1-insulin-su-dose-reduction/) | Reduce basal insulin or sulfonylurea when starting/escalating GLP-1 |
-| [Oral Contraceptive Interaction](skills/endocrinology/glp1-receptor-agonists/glp1-oral-contraceptive-interaction/) | OCP interaction counselling for tirzepatide |
-| [Pancreatobiliary Risk Monitor](skills/endocrinology/glp1-receptor-agonists/glp1-pancreatobiliary-risk-monitor/) | Monitor for pancreatitis, cholelithiasis, lipase/amylase elevation |
-| [Perioperative Aspiration Guide](skills/endocrinology/glp1-receptor-agonists/glp1-perioperative-aspiration/) | Perioperative decisions for patients on GLP-1 agonists |
-| [Obesity Agent N/V Profile](skills/endocrinology/glp1-receptor-agonists/glp1-obesity-agent-nv-profile/) | Nausea/vomiting rates across semaglutide, tirzepatide, liraglutide, etc. |
+| Sub-specialty | Skills | Scope |
+|---|---:|---|
+| [Diabetic Foot](skills/infectious-disease/diabetic-foot/) | 2 | IWGDF/IDSA 2023 — severity classifier, empiric antibiotic selector |
 
-**Inpatient Diabetes / Glucocorticoid-Induced Hyperglycaemia (GCIH)**
+### 🫀 Cardiology — 1 skill
 
-| Skill | What it does |
-|---|---|
-| [GCIH Patient Classifier](skills/endocrinology/inpatient-diabetes/gcih-patient-classifier/) | Classify as established diabetic (Group 1) vs new GCIH (Group 2) |
-| [GCIH Premeal Insulin Scale](skills/endocrinology/inpatient-diabetes/gcih-premeal-insulin-scale/) | Supplemental premeal short-acting insulin dose |
-| [GCIH Correctional Insulin Selector](skills/endocrinology/inpatient-diabetes/gcih-correctional-insulin-selector/) | Correctional insulin type and dose selection |
-| [GCIH Basal Insulin Titration](skills/endocrinology/inpatient-diabetes/gcih-basal-insulin-titration/) | Day-to-day basal insulin adjustment in GCIH |
-| [Basal Insulin Titration](skills/endocrinology/inpatient-diabetes/basal-insulin-titration/) | Lantus/Basaglar/Ryzodeg titration by fasting BGL trend |
+| Sub-specialty | Skills | Scope |
+|---|---:|---|
+| [Lipidology](skills/cardiology/lipidology/) | 1 | Bemdec (bempedoic acid) prescribing guide |
 
-**Phaeochromocytoma**
+### 🧬 Genetics & Genomics — 1 skill
 
-| Skill | What it does |
-|---|---|
-| [Screening Strategy](skills/endocrinology/phaeochromocytoma/pheo-screening-strategy/) | First-line screening logic for pheo/paraganglioma |
-| [Biochemical Confirmation](skills/endocrinology/phaeochromocytoma/pheo-biochemical-confirmation/) | Interpret metanephrine results and handle borderline elevations |
-| [Pre-operative Alpha-Blockade](skills/endocrinology/phaeochromocytoma/pheo-preoperative-alpha-blockade/) | Alpha-blockade titration and volume expansion protocol |
+| Folder | Skills | Scope |
+|---|---:|---|
+| [NHS Genomic Test Directory](skills/genetics/nhs-genomic-test-finder/) | 1 | Lookup of R-codes, gene panels & commissioning categories across 457 rare-disease indications (NHS England v9.0, April 2026) |
 
-**Diabetes Technology** — Medtronic MiniMed 780G / CareLink
+### 🚽 Urology — 1 skill
 
-| Skill | What it does |
-|---|---|
-| [CareLink Interpreter](skills/endocrinology/diabetes-technology/carelink-interpreter/) | Systematic 6-step clinical interpretation of CareLink/780G Daily Review downloads — TIR, insulin delivery, patterns, hypo/hyper root causes, action plan |
-| [780G Pump Adjustment Guide](skills/endocrinology/diabetes-technology/780g-pump-adjustment/) | Guide ICR/ISF/basal and SmartGuard setting adjustments based on CareLink data using Medtronic's 3-step follow-up workflow |
+| Folder | Skills | Scope |
+|---|---:|---|
+| [Overactive Bladder](skills/urology/) | 1 | Mirago (mirabegron) prescribing guide |
 
 ---
 
-### 🫃 Gastroenterology
-
-**Pre-Procedure Management** — AGA 2024
-
-| Skill | What it does |
-|---|---|
-| [GLP-1 RA Pre-Endoscopy Decision Tool](skills/gastroenterology/glp1-endoscopy-pre-procedure/) | Proceed / postpone / modify for patients on semaglutide, tirzepatide, liraglutide before endoscopy |
-
----
-
-### 👶 Pediatric Medicine
-
-**Pediatric Obesity** — CMAJ 2025
-
-| Skill | What it does |
-|---|---|
-| [Intervention Selector](skills/pediatric-medicine/pediatric-obesity-intervention-selector/) | Select the right treatment tier (behavioural → pharmacologic → surgical) based on age and history |
-| [Pharmacotherapy Selector](skills/pediatric-medicine/pediatric-obesity-pharmacotherapy-selector/) | Choose between GLP-1RA, metformin, or orlistat for children aged ≥12 with monitoring plan |
-| [Surgical Eligibility Screener](skills/pediatric-medicine/pediatric-obesity-surgical-screener/) | Full checklist for bariatric surgery eligibility in children aged ≥13 (LSG or RYGB) |
-| [Non-Stigmatising Consultation](skills/pediatric-medicine/pediatric-obesity-consultation/) | Step-by-step 5As + 4Ms framework for conducting a pediatric obesity visit |
-| [Atypical Etiology Screener](skills/pediatric-medicine/pediatric-obesity-etiology-screener/) | Red flag screen for monogenic, syndromic, or secondary endocrine causes (Prader-Willi, Cushing, ROHHAD, leptin deficiency, etc.) |
-| [Monogenic Obesity Diagnosis](skills/pediatric-medicine/monogenic-obesity-diagnosis/) | Step-by-step leptin-melanocortin pathway algorithm — syndromic (PWS, BBS, AHO) vs. monogenic (LEP, LEPR, POMC, MC4R) with pharmacotherapy mapping |
-
----
-
-### 🩸 Haematology / Oncology
-
-**Multiple Myeloma**
-
-| Skill | What it does |
-|---|---|
-| [Diagnostic Workup](skills/haematology/multiple-myeloma/mm-diagnostic-workup/) | Order correct workup at 4 timepoints — diagnosis, response assessment, relapse, MRD |
-| [ASCT Eligibility](skills/haematology/multiple-myeloma/mm-asct-eligibility/) | High-dose melphalan + autologous stem cell transplant eligibility for NDMM |
-| [MRD Assessment](skills/haematology/multiple-myeloma/mm-mrd-assessment/) | When and how to assess minimal residual disease (NGF, NGS, PET-CT) |
-
----
-
-### 🫀 Transplant Medicine
-
-| Skill | What it does |
-|---|---|
-| [DBD Donor Kidney Eligibility](skills/transplant-medicine/dbd-diabetes-hypertension-donor-eligibility/) | Suitability of brain-dead donor kidneys with diabetes/hypertension |
-| [MAPI Score Calculator](skills/transplant-medicine/mapi-score-calculator/) | Maryland Aggregate Pathology Index from donor kidney biopsy to predict graft survival |
-
----
-
-### 🧬 Genetics & Genomics
-
-**NHS Genomic Test Directory** — NHS England v9.0, April 2026
-
-| Skill | What it does |
-|---|---|
-| [NHS Genomic Test Finder](skills/genetics/nhs-genomic-test-finder/) | Look up R-codes, gene panels, test methods and commissioning categories across 457 rare disease indications |
-
----
-
-### 🫀 Cardiology · 🫘 Nephrology · 🫁 Respiratory
-> Coming soon — contributions welcome
+> 🫘 **Nephrology** · 🫁 **Respiratory** · 🦴 **Rheumatology** — coming soon. Contributions welcome.
 
 ---
 
@@ -260,39 +202,47 @@ The **[`meta/chatgpt-master-system-prompt.md`](meta/chatgpt-master-system-prompt
 MD2SKILL/
 ├── README.md
 ├── CONTRIBUTING.md
+├── assets/
+│   └── md2skill-logo.png
 ├── meta/
-│   ├── md2skill-philosophy.md             ← The 6-step pipeline (this document)
-│   ├── md2skill-converter.md              ← How to convert a guideline into a skill (Steps 3–4)
-│   ├── chatgpt-custom-gpt-setup.md        ← How to use skills in ChatGPT Custom GPTs (Step 6)
-│   └── chatgpt-master-system-prompt.md    ← Copy-paste master prompt for multi-skill GPTs
+│   ├── md2skill-philosophy.md                       ← The 6-step pipeline
+│   ├── md2skill-converter.md                        ← How to convert a guideline (native skill)
+│   ├── chatgpt-md2skill-converter-system-prompt.md  ← Converter as a ChatGPT Custom GPT prompt
+│   ├── chatgpt-custom-gpt-setup.md                  ← How to use skills in ChatGPT
+│   └── chatgpt-master-system-prompt.md              ← Multi-skill GPT master prompt with citation rules
 └── skills/
-    ├── infectious-disease/
-    │   └── diabetic-foot/
-    │       ├── dfi-severity-classifier/
-    │       └── dfi-antibiotic-selector/
+    ├── cardiology/lipidology/                       (1)
     ├── endocrinology/
-    │   └── preventive-care/
-    │       └── diabetes-vaccination-checker/
+    │   ├── adrenal/                                 (34)
+    │   ├── calcium-disorders/                       (4)
+    │   ├── diabetes-in-pregnancy/                   (10)
+    │   ├── diabetes-technology/                     (6)
+    │   ├── glp1-receptor-agonists/                  (17)
+    │   ├── hypogonadism/                            (1)
+    │   ├── inpatient-diabetes/                      (26)
+    │   ├── lipidology/                              (52)
+    │   ├── metabolic-bone/                          (20)
+    │   ├── obesity/                                 (1)
+    │   ├── pediatric-obesity/                       (6)
+    │   ├── phaeochromocytoma/                       (70)
+    │   ├── preventive-care/                         (15)
+    │   ├── t2dm/                                    (3)
+    │   ├── thyroid-cancer/                          (4)
+    │   ├── thyroid-nodule/                          (2)
+    │   └── (plus loose HbA1c & comorbidity skills at root)
     ├── gastroenterology/
-    │   └── glp1-endoscopy-pre-procedure/
-    ├── pediatric-medicine/
-    │   ├── pediatric-obesity-intervention-selector/
-    │   ├── pediatric-obesity-pharmacotherapy-selector/
-    │   ├── pediatric-obesity-surgical-screener/
-    │   └── pediatric-obesity-consultation/
+    │   ├── constipation/                            (3)
+    │   └── glp1-endoscopy-pre-procedure/            (1)
+    ├── genetics/nhs-genomic-test-finder/            (1, with CSV reference)
+    ├── haematology/multiple-myeloma/                (3)
+    ├── infectious-disease/diabetic-foot/            (2)
+    ├── neurology/vestibular/                        (4)
     ├── pediatric-endocrinology/
-    │   └── pediatric-obesity/
-    │       ├── pediatric-obesity-intervention-selector/
-    │       ├── pediatric-obesity-pharmacotherapy-selector/
-    │       ├── pediatric-obesity-surgical-screener/
-    │       ├── pediatric-obesity-consultation/
-    │       ├── pediatric-obesity-etiology-screener/
-    │       └── monogenic-obesity-diagnosis/
-    └── genetics/
-        └── nhs-genomic-test-finder/
-            ├── SKILL.md
-            └── references/
-                └── genomic-test-directory.csv
+    │   ├── cah/                                     (4)
+    │   └── pediatric-obesity/                       (6)
+    ├── pediatric-medicine/                          (6, pediatric-obesity)
+    ├── transplant-medicine/                         (2)
+    └── urology/                                     (1)
 ```
 
 Each skill folder:
