@@ -9,7 +9,7 @@
 An open-source library of clinical decision support skills built from published medical guidelines. Each skill is a structured, step-by-step prompt that turns any AI assistant into a bedside clinical tool.
 
 <p align="center">
-  <strong>305 skills</strong> · <strong>11 specialties</strong> · grounded in published guidelines · MIT licensed
+  <strong>832 skills</strong> · <strong>11 specialties</strong> · grounded in published guidelines · MIT licensed
 </p>
 
 ---
@@ -105,35 +105,40 @@ The **[`meta/chatgpt-master-system-prompt.md`](meta/chatgpt-master-system-prompt
 
 ## Skills Library
 
-305 skills across 11 specialties. The tables below show coverage by sub-specialty — click any folder link to browse the skills inside.
+832 skills across 11 specialties. The tables below show coverage by sub-specialty — click any folder link to browse the skills inside.
 
-### 🩺 Endocrinology — 271 skills
+### 🩺 Endocrinology — 787 skills
 
 | Sub-specialty | Skills | Scope |
 |---|---:|---|
+| [Pituitary & Acromegaly](skills/endocrinology/pituitary/) | 98 | Acromegaly diagnosis & management (SRL/pegvisomant/surgery/RT), central diabetes insipidus (DDAVP protocols), central hypothyroidism (LT4 dosing, TSH targets), pituitary apoplexy, prolactinoma, GH deficiency testing & replacement, hypopituitarism workup, LH/FSH/ACTH/TSH deficiency (ES 2025 guidelines) |
+| [Adrenal](skills/endocrinology/adrenal/) | 115 | ES-PA (ARR screening, AVS, MRA selection), JES-PA (confirmatory tests, pregnancy), ESA-PA (18-oxo/18-OHB interpretation, GRA management), ENDA primary adrenal insufficiency (glucocorticoid/mineralocorticoid dosing, sick-day rules, crisis management), ATA secondary AI (stress dosing, HPA axis recovery) |
 | [Phaeochromocytoma & PPGL](skills/endocrinology/phaeochromocytoma/) | 70 | Full ATA-PPGL + JES-PPGL set — screening, biochemistry, imaging modality selection (123I-MIBG / 68Ga-DOTATATE / 18F-FDG-PET), genetic testing, GAPP/COPPS/PASS metastasis risk scoring, surgical approach, perioperative alpha-blockade, pregnancy, metastatic treatment, radionuclide therapy |
+| [Hypogonadism, FHA & Hirsutism](skills/endocrinology/hypogonadism/) | 82 | Functional hypothalamic amenorrhea (ES 2023 — energy rebalancing, BMD, fertility, HRT options), hirsutism/PCOS (ES 2018 — androgen testing, pharmacotherapy, cosmetic options), testosterone therapy in women (diagnosis, indications, monitoring, cessation) |
+| [Inpatient Diabetes & GCIH](skills/endocrinology/inpatient-diabetes/) | 70 | Basal/correctional/premeal insulin protocols, GCIH classification & titration, perioperative BG targets, inpatient CGM, DPP-4i use, glucagon, carb counting, structured education (ES 2022 inpatient hyperglycemia) |
+| [Diabetes Technology](skills/endocrinology/diabetes-technology/) | 58 | CGM initiation, continuation & discontinuation (inpatient & outpatient), rtCGM vs SMBG, CSII candidacy, training & assessment protocols, pump hospital policies, insulin bolus calculator, DKA prevention, hypoglycemia management (ES/ADA 2023) |
 | [Lipidology](skills/endocrinology/lipidology/) | 52 | Statin/non-statin selection, ASCVD risk, lipoprotein(a), TG management, lipid monitoring, familial dyslipidaemia, special populations |
-| [Adrenal (Primary Aldosteronism)](skills/endocrinology/adrenal/) | 34 | Endocrine Society + JES-PA — ARR screening, confirmatory testing, AVS protocol & interpretation, subtype classification, MRA selection, pregnancy management |
-| [Inpatient Diabetes & GCIH](skills/endocrinology/inpatient-diabetes/) | 26 | Basal/correctional/premeal insulin protocols, GCIH classification & titration, perioperative BG targets, inpatient CGM |
-| [Metabolic Bone (Paget's Disease)](skills/endocrinology/metabolic-bone/) | 20 | Diagnostic workup, treatment indication, bisphosphonate selection, monitoring, complications |
+| [Cushing Syndrome](skills/endocrinology/cushing/) | 45 | ES 2024 — diagnosis (UFC, LNSC, DST), TSS vs alternative surgery, pituitary-directed medical therapy, steroidogenesis inhibitors, bilateral adrenalectomy, postoperative cortisol management, recurrence surveillance, comorbidity treatment |
+| [Preventive Care](skills/endocrinology/preventive-care/) | 29 | ADA vaccination, vitamin D screening (who NOT to test), supplementation thresholds by age/risk group, daily vs intermittent dosing |
+| [Pediatric Obesity](skills/endocrinology/pediatric-obesity/) | 34 | CMAJ 2025 set + ESO 2025 — BMI classification, comorbidity triggers, pharmacotherapy initiation & discontinuation, bariatric eligibility, lipid/glucose/BP interpretation by age, healthy eating & activity |
+| [Metabolic Bone (Paget's Disease)](skills/endocrinology/metabolic-bone/) | 23 | Diagnostic workup, treatment indication, bisphosphonate selection & monitoring, complications; glucocorticoid & LT4 overreplacement fracture risk |
+| [Obesity](skills/endocrinology/obesity/) | 23 | Pharmacotherapy eligibility, dose escalation, 5% efficacy threshold, off-label prescribing, antihypertensive & antihistamine & AED/antidepressant/antipsychotic weight-conscious selection, shared decision-making tools |
+| [Calcium Disorders](skills/endocrinology/calcium-disorders/) | 25 | Hypercalcemia severity, diagnostic algorithm, malignancy workup, medication-induced screen; ES HCM protocol (IV fluids, bisphosphonate/denosumab/calcimimetic selection, renal dose adjustment, parathyroid carcinoma) |
+| [Gender Medicine](skills/endocrinology/gender-medicine/) | 26 | ES 2017 gender-affirming hormone therapy — eligibility criteria, pubertal suppression, sex-hormone induction, surgery readiness, CVD & bone & cancer surveillance, fertility counselling |
 | [GLP-1 Receptor Agonists](skills/endocrinology/glp1-receptor-agonists/) | 17 | Candidacy, dose escalation, GI AE management, perioperative aspiration, ocular safety (NAION, DR), prescribing guides (Mounjaro, Wegovy, Noveltreat) |
-| [Preventive Care](skills/endocrinology/preventive-care/) | 15 | ADA vaccination, vitamin D testing & supplementation |
 | [Diabetes in Pregnancy](skills/endocrinology/diabetes-in-pregnancy/) | 10 | Pre-existing diabetes management in pregnancy (PDM) |
-| [Diabetes Technology](skills/endocrinology/diabetes-technology/) | 6 | Medtronic 780G adjustment, CareLink interpretation, CGM/rtCGM |
-| [Pediatric Obesity](skills/endocrinology/pediatric-obesity/) | 6 | CMAJ 2025 — intervention selector, pharmacotherapy, surgical screener, non-stigmatising consultation, etiology screener, monogenic diagnosis |
 | [Thyroid Cancer](skills/endocrinology/thyroid-cancer/) | 4 | ATA DTC initial risk stratification, dynamic risk reclassification, Bethesda cytology management, RAI decision |
-| [Calcium Disorders](skills/endocrinology/calcium-disorders/) | 4 | Hypercalcemia severity, diagnostic algorithm, malignancy workup, medication-induced screen |
-| [Thyroid Nodule](skills/endocrinology/thyroid-nodule/) | 2 | EU-TIRADS classifier, ATA FNA decision |
+| [Thyroid Nodule](skills/endocrinology/thyroid-nodule/) | 3 | EU-TIRADS classifier, ATA FNA decision, palpable nodule ultrasound |
 | [T2DM](skills/endocrinology/t2dm/) | 1 + 2 root | HbA1c targets & intensification, comorbidity-driven medicine selector, newly-diagnosed OAD selector |
-| [Obesity (general)](skills/endocrinology/obesity/) | 1 | Meal planner |
-| [Hypogonadism](skills/endocrinology/hypogonadism/) | 1 | Testosterone |
 
-### 🧒 Pediatric Endocrinology — 10 skills
+### 🧒 Pediatric Endocrinology — 21 skills
 
 | Sub-specialty | Skills | Scope |
 |---|---:|---|
 | [Pediatric Obesity](skills/pediatric-endocrinology/pediatric-obesity/) | 6 | Cross-listed with endocrinology — CMAJ 2025 full set |
 | [Congenital Adrenal Hyperplasia (CAH)](skills/pediatric-endocrinology/cah/) | 4 | Newborn screening 17-OHP interpretation, newborn subtype differentiator, infant hydrocortisone dosing, adrenal crisis protocol |
+| [Growth & GH Therapy](skills/pediatric-endocrinology/growth/) | 8 | ES 2022 GH treatment in children with cancer history — contraindications (TKI, spinal RT), oncologist consultation, treatment offer & regimen, short stature screening, sitting height |
+| [Puberty Disorders](skills/pediatric-endocrinology/puberty/) | 3 | Central precocious puberty — screening indication, treatment approach, hormone testing |
 
 ### 👶 Pediatric Medicine — 6 skills
 
@@ -213,22 +218,25 @@ MD2SKILL/
 └── skills/
     ├── cardiology/lipidology/                       (1)
     ├── endocrinology/
-    │   ├── adrenal/                                 (34)
-    │   ├── calcium-disorders/                       (4)
+    │   ├── adrenal/                                 (115)
+    │   ├── calcium-disorders/                       (25)
+    │   ├── cushing/                                 (45)  ← NEW
     │   ├── diabetes-in-pregnancy/                   (10)
-    │   ├── diabetes-technology/                     (6)
+    │   ├── diabetes-technology/                     (58)
+    │   ├── gender-medicine/                         (26)  ← NEW
     │   ├── glp1-receptor-agonists/                  (17)
-    │   ├── hypogonadism/                            (1)
-    │   ├── inpatient-diabetes/                      (26)
+    │   ├── hypogonadism/                            (82)
+    │   ├── inpatient-diabetes/                      (70)
     │   ├── lipidology/                              (52)
-    │   ├── metabolic-bone/                          (20)
-    │   ├── obesity/                                 (1)
-    │   ├── pediatric-obesity/                       (6)
+    │   ├── metabolic-bone/                          (23)
+    │   ├── obesity/                                 (23)
+    │   ├── pediatric-obesity/                       (34)
     │   ├── phaeochromocytoma/                       (70)
-    │   ├── preventive-care/                         (15)
+    │   ├── pituitary/                               (98)  ← NEW
+    │   ├── preventive-care/                         (29)
     │   ├── t2dm/                                    (3)
     │   ├── thyroid-cancer/                          (4)
-    │   ├── thyroid-nodule/                          (2)
+    │   ├── thyroid-nodule/                          (3)
     │   └── (plus loose HbA1c & comorbidity skills at root)
     ├── gastroenterology/
     │   ├── constipation/                            (3)
@@ -239,7 +247,9 @@ MD2SKILL/
     ├── neurology/vestibular/                        (4)
     ├── pediatric-endocrinology/
     │   ├── cah/                                     (4)
-    │   └── pediatric-obesity/                       (6)
+    │   ├── growth/                                  (8)   ← NEW
+    │   ├── pediatric-obesity/                       (6)
+    │   └── puberty/                                 (3)   ← NEW
     ├── pediatric-medicine/                          (6, pediatric-obesity)
     ├── transplant-medicine/                         (2)
     └── urology/                                     (1)
