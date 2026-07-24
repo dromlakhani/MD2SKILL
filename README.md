@@ -9,7 +9,7 @@
 An open-source library of clinical decision support skills built from published medical guidelines. Each skill is a structured, step-by-step prompt that turns any AI assistant into a bedside clinical tool.
 
 <p align="center">
-  <strong>832 skills</strong> · <strong>11 specialties</strong> · grounded in published guidelines · MIT licensed
+  <strong>885 skills</strong> · <strong>11 specialties</strong> · grounded in published guidelines · MIT licensed
 </p>
 
 ---
@@ -105,16 +105,16 @@ The **[`meta/chatgpt-master-system-prompt.md`](meta/chatgpt-master-system-prompt
 
 ## Skills Library
 
-832 skills across 11 specialties. The tables below show coverage by sub-specialty — click any folder link to browse the skills inside.
+885 skills across 11 specialties. The tables below show coverage by sub-specialty — click any folder link to browse the skills inside.
 
-### 🩺 Endocrinology — 787 skills
+### 🩺 Endocrinology — 833 skills
 
 | Sub-specialty | Skills | Scope |
 |---|---:|---|
 | [Pituitary & Acromegaly](skills/endocrinology/pituitary/) | 98 | Acromegaly diagnosis & management (SRL/pegvisomant/surgery/RT), central diabetes insipidus (DDAVP protocols), central hypothyroidism (LT4 dosing, TSH targets), pituitary apoplexy, prolactinoma, GH deficiency testing & replacement, hypopituitarism workup, LH/FSH/ACTH/TSH deficiency (ES 2025 guidelines) |
 | [Adrenal](skills/endocrinology/adrenal/) | 115 | ES-PA (ARR screening, AVS, MRA selection), JES-PA (confirmatory tests, pregnancy), ESA-PA (18-oxo/18-OHB interpretation, GRA management), ENDA primary adrenal insufficiency (glucocorticoid/mineralocorticoid dosing, sick-day rules, crisis management), ATA secondary AI (stress dosing, HPA axis recovery) |
 | [Phaeochromocytoma & PPGL](skills/endocrinology/phaeochromocytoma/) | 70 | Full ATA-PPGL + JES-PPGL set — screening, biochemistry, imaging modality selection (123I-MIBG / 68Ga-DOTATATE / 18F-FDG-PET), genetic testing, GAPP/COPPS/PASS metastasis risk scoring, surgical approach, perioperative alpha-blockade, pregnancy, metastatic treatment, radionuclide therapy |
-| [Hypogonadism, FHA & Hirsutism](skills/endocrinology/hypogonadism/) | 82 | Functional hypothalamic amenorrhea (ES 2023 — energy rebalancing, BMD, fertility, HRT options), hirsutism/PCOS (ES 2018 — androgen testing, pharmacotherapy, cosmetic options), testosterone therapy in women (diagnosis, indications, monitoring, cessation) |
+| [Hypogonadism, FHA & Hirsutism](skills/endocrinology/hypogonadism/) | 128 | Functional hypothalamic amenorrhea (ES 2023 — energy rebalancing, BMD, fertility, HRT options), hirsutism/PCOS (ES 2018 — androgen testing, pharmacotherapy, cosmetic options), testosterone therapy in women (diagnosis, indications, monitoring, cessation); male hypogonadism & testosterone therapy (ICSM 2025 — diagnosis confirmation, assay selection, indications, contraindications, prostate/haematocrit monitoring, fertility preservation, shared decision-making) |
 | [Inpatient Diabetes & GCIH](skills/endocrinology/inpatient-diabetes/) | 70 | Basal/correctional/premeal insulin protocols, GCIH classification & titration, perioperative BG targets, inpatient CGM, DPP-4i use, glucagon, carb counting, structured education (ES 2022 inpatient hyperglycemia) |
 | [Diabetes Technology](skills/endocrinology/diabetes-technology/) | 58 | CGM initiation, continuation & discontinuation (inpatient & outpatient), rtCGM vs SMBG, CSII candidacy, training & assessment protocols, pump hospital policies, insulin bolus calculator, DKA prevention, hypoglycemia management (ES/ADA 2023) |
 | [Lipidology](skills/endocrinology/lipidology/) | 52 | Statin/non-statin selection, ASCVD risk, lipoprotein(a), TG management, lipid monitoring, familial dyslipidaemia, special populations |
@@ -131,13 +131,14 @@ The **[`meta/chatgpt-master-system-prompt.md`](meta/chatgpt-master-system-prompt
 | [Thyroid Nodule](skills/endocrinology/thyroid-nodule/) | 3 | EU-TIRADS classifier, ATA FNA decision, palpable nodule ultrasound |
 | [T2DM](skills/endocrinology/t2dm/) | 1 + 2 root | HbA1c targets & intensification, comorbidity-driven medicine selector, newly-diagnosed OAD selector |
 
-### 🧒 Pediatric Endocrinology — 21 skills
+### 🧒 Pediatric Endocrinology — 27 skills
 
 | Sub-specialty | Skills | Scope |
 |---|---:|---|
 | [Pediatric Obesity](skills/pediatric-endocrinology/pediatric-obesity/) | 6 | Cross-listed with endocrinology — CMAJ 2025 full set |
 | [Congenital Adrenal Hyperplasia (CAH)](skills/pediatric-endocrinology/cah/) | 4 | Newborn screening 17-OHP interpretation, newborn subtype differentiator, infant hydrocortisone dosing, adrenal crisis protocol |
 | [Growth & GH Therapy](skills/pediatric-endocrinology/growth/) | 8 | ES 2022 GH treatment in children with cancer history — contraindications (TKI, spinal RT), oncologist consultation, treatment offer & regimen, short stature screening, sitting height |
+| [Growth Hormone (extended)](skills/pediatric-endocrinology/growth-hormone/) | 6 | Extended GH therapy skills — additional indications, monitoring protocols, and dose adjustment guidance |
 | [Puberty Disorders](skills/pediatric-endocrinology/puberty/) | 3 | Central precocious puberty — screening indication, treatment approach, hormone testing |
 
 ### 👶 Pediatric Medicine — 6 skills
@@ -177,11 +178,12 @@ The **[`meta/chatgpt-master-system-prompt.md`](meta/chatgpt-master-system-prompt
 |---|---:|---|
 | [Diabetic Foot](skills/infectious-disease/diabetic-foot/) | 2 | IWGDF/IDSA 2023 — severity classifier, empiric antibiotic selector |
 
-### 🫀 Cardiology — 1 skill
+### 🫀 Cardiology — 2 skills
 
 | Sub-specialty | Skills | Scope |
 |---|---:|---|
 | [Lipidology](skills/cardiology/lipidology/) | 1 | Bemdec (bempedoic acid) prescribing guide |
+| [Cardiomyopathy](skills/cardiology/cardiomyopathy/) | 1 | Cardiomyopathy etiology identifier |
 
 ### 🧬 Genetics & Genomics — 1 skill
 
@@ -225,7 +227,7 @@ MD2SKILL/
     │   ├── diabetes-technology/                     (58)
     │   ├── gender-medicine/                         (26)  ← NEW
     │   ├── glp1-receptor-agonists/                  (17)
-    │   ├── hypogonadism/                            (82)
+    │   ├── hypogonadism/                            (128)
     │   ├── inpatient-diabetes/                      (70)
     │   ├── lipidology/                              (52)
     │   ├── metabolic-bone/                          (23)
