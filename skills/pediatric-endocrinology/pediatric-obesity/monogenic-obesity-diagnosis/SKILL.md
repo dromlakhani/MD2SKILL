@@ -13,7 +13,7 @@ description: >
 
 Structured diagnosis for children and adolescents with suspected genetically-driven obesity. Uses the leptin-melanocortin pathway framework and key clinical features to reach a specific genetic diagnosis and matched pharmacotherapy.
 
-**Sources:** Kalinderi et al., Children 2024; Fitch et al., Obesity Pillars 2024; UpToDate Feb 2026.
+**Sources:** Kalinderi et al., Children 2024; Fitch et al., Obesity Pillars 2024.
 
 ---
 
@@ -187,5 +187,4 @@ Once a likely diagnosis is identified, order the appropriate NHS genomic test.
 
 - Kalinderi K et al. "Monogenic and Syndromic Forms of Childhood Obesity: An Update." *Children* 2024;11:153. https://doi.org/10.3390/children11020153
 - Fitch AK et al. "Differentiating Monogenic and Syndromic Causes of Obesity from Common Polygenic Obesity." *Obesity Pillars* 2024. https://doi.org/10.1016/j.obpill.2024.100120
-- UpToDate: "Genetic contribution and pathophysiology of obesity." Updated Feb 2026.
 - NHS England National Genomic Test Directory for Rare and Inherited Disease, v9.0, April 2026.
