@@ -9,7 +9,7 @@
 An open-source library of clinical decision support skills built from published medical guidelines. Each skill is a structured, step-by-step prompt that turns any AI assistant into a bedside clinical tool.
 
 <p align="center">
-  <strong>885 skills</strong> · <strong>11 specialties</strong> · grounded in published guidelines · MIT licensed
+  <strong>884 skills</strong> · <strong>11 specialties</strong> · grounded in published guidelines · MIT licensed
 </p>
 
 ---
@@ -105,7 +105,7 @@ The **[`meta/chatgpt-master-system-prompt.md`](meta/chatgpt-master-system-prompt
 
 ## Skills Library
 
-885 skills across 11 specialties. The tables below show coverage by sub-specialty — click any folder link to browse the skills inside.
+884 skills across 11 specialties. The tables below show coverage by sub-specialty — click any folder link to browse the skills inside.
 
 ### 🩺 Endocrinology — 833 skills
 
@@ -178,12 +178,11 @@ The **[`meta/chatgpt-master-system-prompt.md`](meta/chatgpt-master-system-prompt
 |---|---:|---|
 | [Diabetic Foot](skills/infectious-disease/diabetic-foot/) | 2 | IWGDF/IDSA 2023 — severity classifier, empiric antibiotic selector |
 
-### 🫀 Cardiology — 2 skills
+### 🫀 Cardiology — 1 skill
 
 | Sub-specialty | Skills | Scope |
 |---|---:|---|
 | [Lipidology](skills/cardiology/lipidology/) | 1 | Bemdec (bempedoic acid) prescribing guide |
-| [Cardiomyopathy](skills/cardiology/cardiomyopathy/) | 1 | Cardiomyopathy etiology identifier |
 
 ### 🧬 Genetics & Genomics — 1 skill
 
