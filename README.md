@@ -9,7 +9,7 @@
 An open-source library of clinical decision support skills built from published medical guidelines. Each skill is a structured, step-by-step prompt that turns any AI assistant into a bedside clinical tool.
 
 <p align="center">
-  <strong>884 skills</strong> · <strong>11 specialties</strong> · grounded in published guidelines · MIT licensed
+  <strong>888 skills</strong> · <strong>11 specialties</strong> · grounded in published guidelines · MIT licensed
 </p>
 
 ---
@@ -105,9 +105,9 @@ The **[`meta/chatgpt-master-system-prompt.md`](meta/chatgpt-master-system-prompt
 
 ## Skills Library
 
-884 skills across 11 specialties. The tables below show coverage by sub-specialty — click any folder link to browse the skills inside.
+888 skills across 11 specialties. The tables below show coverage by sub-specialty — click any folder link to browse the skills inside.
 
-### 🩺 Endocrinology — 833 skills
+### 🩺 Endocrinology — 837 skills
 
 | Sub-specialty | Skills | Scope |
 |---|---:|---|
@@ -130,6 +130,7 @@ The **[`meta/chatgpt-master-system-prompt.md`](meta/chatgpt-master-system-prompt
 | [Thyroid Cancer](skills/endocrinology/thyroid-cancer/) | 4 | ATA DTC initial risk stratification, dynamic risk reclassification, Bethesda cytology management, RAI decision |
 | [Thyroid Nodule](skills/endocrinology/thyroid-nodule/) | 3 | EU-TIRADS classifier, ATA FNA decision, palpable nodule ultrasound |
 | [T2DM](skills/endocrinology/t2dm/) | 1 + 2 root | HbA1c targets & intensification, comorbidity-driven medicine selector, newly-diagnosed OAD selector |
+| [Type 1 Diabetes](skills/endocrinology/t1d/) | 4 | Islet autoantibody screening & confirmation, staging classifier (At Risk → Stage 4), progression risk & monitoring frequency, teplizumab eligibility & 14-day course (Hussain et al 2026, IDF Europe consensus) |
 
 ### 🧒 Pediatric Endocrinology — 27 skills
 
@@ -236,6 +237,7 @@ MD2SKILL/
     │   ├── pituitary/                               (98)  ← NEW
     │   ├── preventive-care/                         (29)
     │   ├── t2dm/                                    (3)
+    │   ├── t1d/                                     (4)  ← NEW
     │   ├── thyroid-cancer/                          (4)
     │   ├── thyroid-nodule/                          (3)
     │   └── (plus loose HbA1c & comorbidity skills at root)
