@@ -9,7 +9,7 @@
 An open-source library of clinical decision support skills built from published medical guidelines. Each skill is a structured, step-by-step prompt that turns any AI assistant into a bedside clinical tool.
 
 <p align="center">
-  <strong>888 skills</strong> · <strong>11 specialties</strong> · grounded in published guidelines · MIT licensed
+  <strong>910 skills</strong> · <strong>11 specialties</strong> · grounded in published guidelines · MIT licensed
 </p>
 
 ---
@@ -105,9 +105,9 @@ The **[`meta/chatgpt-master-system-prompt.md`](meta/chatgpt-master-system-prompt
 
 ## Skills Library
 
-888 skills across 11 specialties. The tables below show coverage by sub-specialty — click any folder link to browse the skills inside.
+910 skills across 11 specialties. The tables below show coverage by sub-specialty — click any folder link to browse the skills inside.
 
-### 🩺 Endocrinology — 837 skills
+### 🩺 Endocrinology — 842 skills
 
 | Sub-specialty | Skills | Scope |
 |---|---:|---|
@@ -129,7 +129,11 @@ The **[`meta/chatgpt-master-system-prompt.md`](meta/chatgpt-master-system-prompt
 | [Diabetes in Pregnancy](skills/endocrinology/diabetes-in-pregnancy/) | 10 | Pre-existing diabetes management in pregnancy (PDM) |
 | [Thyroid Cancer](skills/endocrinology/thyroid-cancer/) | 4 | ATA DTC initial risk stratification, dynamic risk reclassification, Bethesda cytology management, RAI decision |
 | [Thyroid Nodule](skills/endocrinology/thyroid-nodule/) | 3 | EU-TIRADS classifier, ATA FNA decision, palpable nodule ultrasound |
-| [T2DM](skills/endocrinology/t2dm/) | 1 + 2 root | HbA1c targets & intensification, comorbidity-driven medicine selector, newly-diagnosed OAD selector |
+| [T2DM](skills/endocrinology/t2dm/) | 1 | HbA1c targets & intensification (NICE NG28 2026) |
+| [T2DM — HbA1c Target & Intensification](skills/endocrinology/t2dm-hba1c-target-and-intensification/) | 1 | Individualised HbA1c target-setting and intensification triggers for adults with T2DM (NICE NG28 2026) |
+| [T2DM — Comorbidity Medicine Selector](skills/endocrinology/t2dm-comorbidity-medicine-selector/) | 1 | Comorbidity-stratified glucose-lowering medicine selection for T2DM — six clinical profiles (NICE NG28 2026) |
+| [Weekly Insulin](skills/endocrinology/weekly-insulin/) | 3 | Awiqli (insulin icodec) prescribing guide, switching from daily basal, hypoglycaemia & safety |
+| [Pancreatic Exocrine Insufficiency](skills/endocrinology/pancreatic-exocrine-insufficiency/) | 2 | Diabetes therapy adjustment when starting PERT, PERT start & titration in diabetes (Indian expert consensus 2026) |
 | [Type 1 Diabetes](skills/endocrinology/t1d/) | 4 | Islet autoantibody screening & confirmation, staging classifier (At Risk → Stage 4), progression risk & monitoring frequency, teplizumab eligibility & 14-day course (Hussain et al 2026, IDF Europe consensus) |
 
 ### 🧒 Pediatric Endocrinology — 27 skills
@@ -154,12 +158,14 @@ The **[`meta/chatgpt-master-system-prompt.md`](meta/chatgpt-master-system-prompt
 |---|---:|---|
 | [Vestibular / Dizziness](skills/neurology/vestibular/) | 4 | Dizziness type classifier, red-flag screener, peripheral vs central vertigo, BPPV differential |
 
-### 🫃 Gastroenterology — 4 skills
+### 🫃 Gastroenterology — 7 skills
 
 | Sub-specialty | Skills | Scope |
 |---|---:|---|
 | [Constipation](skills/gastroenterology/constipation/) | 3 | Laxative selector, defecatory disorder workup, Movicol prescribing |
 | [Pre-Procedure (GLP-1)](skills/gastroenterology/glp1-endoscopy-pre-procedure/) | 1 | AGA 2024 — proceed / postpone / modify for patients on GLP-1 RAs |
+| [MASLD](skills/gastroenterology/masld/) | 2 | MASLD fibrosis risk stratification (FIB-4 → elastography), FibroScan report interpretation (EASL-EASD-EASO 2024) |
+| [Pancreatic Exocrine Insufficiency](skills/gastroenterology/pancreatic-exocrine-insufficiency/) | 1 | PERT start & titration in diabetes with PEI (Indian expert consensus 2026) |
 
 ### 🩸 Haematology & Oncology — 3 skills
 
@@ -179,17 +185,20 @@ The **[`meta/chatgpt-master-system-prompt.md`](meta/chatgpt-master-system-prompt
 |---|---:|---|
 | [Diabetic Foot](skills/infectious-disease/diabetic-foot/) | 2 | IWGDF/IDSA 2023 — severity classifier, empiric antibiotic selector |
 
-### 🫀 Cardiology — 1 skill
+### 🫀 Cardiology — 14 skills
 
 | Sub-specialty | Skills | Scope |
 |---|---:|---|
-| [Lipidology](skills/cardiology/lipidology/) | 1 | Bemdec (bempedoic acid) prescribing guide |
+| [Hypertension](skills/cardiology/hypertension/) | 7 | ISH 2026 — diagnosis & BP measurement, treatment drug strategy, children, resistant & secondary, emergency, pregnancy, risk assessment & workup |
+| [Lipidology](skills/cardiology/lipidology/) | 6 | ASCVD risk calculator, LDL treatment goals, CPR dyslipidemia framework, CAC scoring indication, Lp(a) screening & cascade, Bemdec prescribing guide |
+| [Inherited CVD Genetics](skills/cardiology/inherited-cvd-genetics/) | 1 | Genetic testing order checklist for inherited cardiovascular disease (JCS/JCC/JSPCCS 2024) |
 
-### 🧬 Genetics & Genomics — 1 skill
+### 🧬 Genetics & Genomics — 2 skills
 
 | Folder | Skills | Scope |
 |---|---:|---|
 | [NHS Genomic Test Directory](skills/genetics/nhs-genomic-test-finder/) | 1 | Lookup of R-codes, gene panels & commissioning categories across 457 rare-disease indications (NHS England v9.0, April 2026) |
+| [Cancer Predisposition](skills/genetics/cancer-predisposition/) | 1 | WB-MRI surveillance plan selection for cancer predisposition syndromes (Summers et al. 2021) |
 
 ### 🚽 Urology — 1 skill
 
@@ -218,42 +227,53 @@ MD2SKILL/
 │   ├── chatgpt-custom-gpt-setup.md                  ← How to use skills in ChatGPT
 │   └── chatgpt-master-system-prompt.md              ← Multi-skill GPT master prompt with citation rules
 └── skills/
-    ├── cardiology/lipidology/                       (1)
+    ├── cardiology/
+    │   ├── hypertension/                            (7)
+    │   ├── inherited-cvd-genetics/                  (1)
+    │   └── lipidology/                              (6)
     ├── endocrinology/
     │   ├── adrenal/                                 (115)
     │   ├── calcium-disorders/                       (25)
-    │   ├── cushing/                                 (45)  ← NEW
+    │   ├── cushing/                                 (45)
     │   ├── diabetes-in-pregnancy/                   (10)
     │   ├── diabetes-technology/                     (58)
-    │   ├── gender-medicine/                         (26)  ← NEW
+    │   ├── gender-medicine/                         (26)
     │   ├── glp1-receptor-agonists/                  (17)
     │   ├── hypogonadism/                            (128)
     │   ├── inpatient-diabetes/                      (70)
     │   ├── lipidology/                              (52)
     │   ├── metabolic-bone/                          (23)
     │   ├── obesity/                                 (23)
+    │   ├── pancreatic-exocrine-insufficiency/       (2)
     │   ├── pediatric-obesity/                       (34)
     │   ├── phaeochromocytoma/                       (70)
-    │   ├── pituitary/                               (98)  ← NEW
+    │   ├── pituitary/                               (98)
     │   ├── preventive-care/                         (29)
-    │   ├── t2dm/                                    (3)
-    │   ├── t1d/                                     (4)  ← NEW
+    │   ├── t1d/                                     (4)
+    │   ├── t2dm/                                    (1)
+    │   ├── t2dm-comorbidity-medicine-selector/      (1)
+    │   ├── t2dm-hba1c-target-and-intensification/   (1)
     │   ├── thyroid-cancer/                          (4)
     │   ├── thyroid-nodule/                          (3)
-    │   └── (plus loose HbA1c & comorbidity skills at root)
+    │   └── weekly-insulin/                          (3)
     ├── gastroenterology/
     │   ├── constipation/                            (3)
-    │   └── glp1-endoscopy-pre-procedure/            (1)
-    ├── genetics/nhs-genomic-test-finder/            (1, with CSV reference)
+    │   ├── glp1-endoscopy-pre-procedure/            (1)
+    │   ├── masld/                                   (2)
+    │   └── pancreatic-exocrine-insufficiency/       (1)
+    ├── genetics/
+    │   ├── cancer-predisposition/                   (1)
+    │   └── nhs-genomic-test-finder/                 (1)
     ├── haematology/multiple-myeloma/                (3)
     ├── infectious-disease/diabetic-foot/            (2)
     ├── neurology/vestibular/                        (4)
     ├── pediatric-endocrinology/
     │   ├── cah/                                     (4)
-    │   ├── growth/                                  (8)   ← NEW
+    │   ├── growth/                                  (8)
+    │   ├── growth-hormone/                          (6)
     │   ├── pediatric-obesity/                       (6)
-    │   └── puberty/                                 (3)   ← NEW
-    ├── pediatric-medicine/                          (6, pediatric-obesity)
+    │   └── puberty/                                 (3)
+    ├── pediatric-medicine/                          (6)
     ├── transplant-medicine/                         (2)
     └── urology/                                     (1)
 ```
