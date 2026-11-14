@@ -41,9 +41,9 @@ flowchart TD
     D --> E
     E --> F
 
-    F --> G["Claude\n(SKILL.md)"]
-    F --> H["ChatGPT\n(Custom GPT)"]
-    F --> I["Gemini\n(Gem)"]
+    F --> G["Claude\n(Skills)"]
+    F --> H["ChatGPT\n(Skills)"]
+    F --> I["Gemini\n(Skills)"]
     F --> J["Perplexity\n(Spaces)"]
 
     style A fill:#1e3a5f,color:#fff,stroke:#1e3a5f
@@ -64,14 +64,33 @@ flowchart TD
 
 ## Supported Platforms
 
+> **What changed in 2026:** `SKILL.md` is now an open standard (Agent Skills). Claude, **ChatGPT** and **Gemini** all read the same file natively, so one MD2SKILL skill now works across all three without rewriting.
+
 Each skill has two files:
 
 | File | For |
 |---|---|
-| `SKILL.md` | **Claude · OpenClaw · Perplexity Computer** — native skill install, auto-triggers |
-| `system-prompt.md` | **ChatGPT · Gemini · Perplexity Spaces** — paste as Instructions |
+| `SKILL.md` | **Claude · ChatGPT · Gemini · OpenClaw · Perplexity Computer** — native skill install; the AI reads the name and description first and opens the full skill only when your case needs it |
+| `system-prompt.md` | **Older setups** (ChatGPT Custom GPTs / Projects, Perplexity Spaces, or accounts without Skills yet) — paste as Instructions; always on |
 
-### Use with ChatGPT Custom GPTs
+### How to use SKILL.md on each platform
+
+| Platform | How to add a skill | How it runs |
+|---|---|---|
+| **Claude** (claude.ai / desktop) | Settings → Capabilities → Skills → upload the skill folder as a `.zip` | Auto-triggers from the `description` |
+| **Claude Code / Cowork** | Drop the folder into `.claude/skills/<skill-name>/` | Auto-triggers from the `description` |
+| **ChatGPT** | Plugins → **Skills** → Create → **Upload from computer** (Enterprise / Edu: Plugins in the sidebar → Skills tab) | Auto-triggers from the `description` |
+| **Gemini app** | Upload `SKILL.md` as a new **skill** (web and Mac apps for now). Skills replace Gems. | Call it with **`/skill-name`** in the chat |
+| **Gemini CLI / Antigravity** | Place the skill folder in the CLI's skills directory | Auto-triggers; can use scripts and reference files |
+| **OpenClaw / Perplexity Computer** | Install via the platform's skill installer | Auto-triggers |
+
+**Notes**
+- **Availability varies by plan and is still rolling out** (ChatGPT Skills started mid-2026; Gemini skills from late September 2026). If Skills aren't on your account yet, use `system-prompt.md` below.
+- **Gems → Skills:** Google is retiring Gems in favour of skills. Personal-account dates and Workspace dates differ; check Google's help pages. Existing Gem setups using `system-prompt.md` keep working until then.
+- **Gemini app skills are lighter:** they behave like `/` shortcuts and don't run scripts. A skill that needs a calculator script works fully only in Claude, ChatGPT or Gemini CLI.
+- **Safety:** a skill acts with your permissions, and `SKILL.md` files can hide instructions (including invisible characters). **Only install skills whose `SKILL.md` you have read.** Every MD2SKILL skill is plain, readable Markdown with its guideline source cited.
+
+### Use with ChatGPT Custom GPTs (legacy)
 
 Two modes — see **[`meta/chatgpt-custom-gpt-setup.md`](meta/chatgpt-custom-gpt-setup.md)** for full instructions:
 
@@ -84,21 +103,15 @@ The **[`meta/chatgpt-master-system-prompt.md`](meta/chatgpt-master-system-prompt
 
 ---
 
-### SKILL.md — Native install
+### system-prompt.md — Paste as Instructions (fallback)
 
-| Platform | How to install |
-|---|---|
-| **Claude** (Cowork / Claude Code) | Drop into `.claude/skills/<skill-name>/` |
-| **OpenClaw** | Install via the platform's skill installer |
-| **Perplexity Computer** | Install via the platform's skill installer |
-
-### system-prompt.md — Paste as Instructions
+Use this when native Skills aren't available on your account, or for a single always-on assistant.
 
 | Platform | Where to paste |
 |---|---|
 | **ChatGPT Custom GPT** | GPT Builder → Configure → Instructions |
 | **ChatGPT Projects** | Project → Instructions |
-| **Gemini** | gem.google.com → Create a Gem → Instructions |
+| **Gemini Gem** (until Gems are retired) | gem.google.com → Create a Gem → Instructions |
 | **Perplexity Spaces** | Space → Settings → Instructions |
 
 ---
