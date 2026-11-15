@@ -1,6 +1,6 @@
 ---
 name: cah-infant-hydrocortisone-dosing
-description: Calculate and prescribe oral hydrocortisone replacement in infants and young children with classical congenital adrenal hyperplasia (21-hydroxylase deficiency, SW or SV) — including dose (mg/m²/day), schedule, formulation, route, choice of agent, and what NOT to use. Use when a clinician asks "what dose of hydrocortisone for a CAH baby", "starting hydrocortisone for a newborn with CAH", "how to split the hydrocortisone schedule in CAH", "can I use prednisolone or dexamethasone in a CAH infant", "how to prepare hydrocortisone for an infant", or any initiation/maintenance dosing question for classical CAH in children under 12 years. Source: Dabas et al., Indian Pediatrics 2020;57:159–164.
+description: "Calculate and prescribe oral hydrocortisone replacement in infants and young children with classical congenital adrenal hyperplasia (21-hydroxylase deficiency, SW or SV) — including dose (mg/m²/day), schedule, formulation, route, choice of agent, and what NOT to use. Use when a clinician asks \"what dose of hydrocortisone for a CAH baby\", \"starting hydrocortisone for a newborn with CAH\", \"how to split the hydrocortisone schedule in CAH\", \"can I use prednisolone or dexamethasone in a CAH infant\", \"how to prepare hydrocortisone for an infant\", or any initiation/maintenance dosing question for classical CAH in children under 12 years. Source: Dabas et al., Indian Pediatrics 2020;57:159–164."
 ---
 
 # CAH Infant Hydrocortisone Dosing Tool

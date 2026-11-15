@@ -1,6 +1,6 @@
 ---
 name: es-follow-prostate-screening-trans-female-on-estrogens
-description: This skill guides individualized prostate cancer screening for transgender females receiving estrogen therapy based on personal risk. Trigger phrase: transgender female receiving estrogens.
+description: "This skill guides individualized prostate cancer screening for transgender females receiving estrogen therapy based on personal risk. Trigger phrase: transgender female receiving estrogens."
 ---
 
 # Follow individualized prostate cancer screening for transgender females on estrogens

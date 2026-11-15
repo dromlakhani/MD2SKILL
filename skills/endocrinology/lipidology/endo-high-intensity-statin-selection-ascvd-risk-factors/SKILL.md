@@ -1,6 +1,6 @@
 ---
 name: endo-high-intensity-statin-selection-ascvd-risk-factors
-description: Recommends choosing high-intensity statins in patients with atherosclerotic cardiovascular disease, or those with risk factors for atherosclerotic cardiovascular disease or risk-enhancing factors. Trigger phrases include: "Patient with established ASCVD", "Assessing need for high-intensity statin in high-risk patient", "Selecting statin intensity based on risk profile".
+description: "Recommends choosing high-intensity statins in patients with atherosclerotic cardiovascular disease, or those with risk factors for atherosclerotic cardiovascular disease or risk-enhancing factors. Trigger phrases include: \"Patient with established ASCVD\", \"Assessing need for high-intensity statin in high-risk patient\", \"Selecting statin intensity based on risk profile\"."
 ---
 
 # Select high-intensity statin for atherosclerotic cardiovascular disease or risk factors

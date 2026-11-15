@@ -1,6 +1,6 @@
 ---
 name: endo-statin-therapy-t1d-age-duration-complications
-description: This skill suggests statin therapy, irrespective of cardiovascular risk score, to reduce cardiovascular risk in adults with type 1 diabetes who are age 40 years or older, have diabetes duration >20 years, or have microvascular complications. Clinical triggers include: 'T1D patient age 40+', 'T1D with diabetes duration >20 years', 'T1D with microvascular complications'.
+description: "This skill suggests statin therapy, irrespective of cardiovascular risk score, to reduce cardiovascular risk in adults with type 1 diabetes who are age 40 years or older, have diabetes duration >20 years, or have microvascular complications. Clinical triggers include: 'T1D patient age 40+', 'T1D with diabetes duration >20 years', 'T1D with microvascular complications'."
 ---
 
 # Statin therapy for type 1 diabetes based on age, duration, or complications

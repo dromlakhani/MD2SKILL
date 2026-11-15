@@ -1,6 +1,6 @@
 ---
 name: bppv-differential-diagnosis
-description: Distinguishes BPPV from its key mimics at the bedside — postural hypotension, vestibular paroxysmia, vestibular migraine, central positional vertigo, and chronic unilateral vestibular hypofunction — using history, trigger patterns, nystagmus characteristics, and response to treatment. Use when a patient has positional vertigo and you're unsure if it's BPPV, when Dix-Hallpike is atypical, or when the patient has not responded to repositioning maneuvers. Trigger phrases: "is this BPPV or something else", "BPPV not responding to Epley", "atypical positional vertigo", "mimics of BPPV", "positional dizziness differential".
+description: "Distinguishes BPPV from its key mimics at the bedside — postural hypotension, vestibular paroxysmia, vestibular migraine, central positional vertigo, and chronic unilateral vestibular hypofunction — using history, trigger patterns, nystagmus characteristics, and response to treatment. Use when a patient has positional vertigo and you're unsure if it's BPPV, when Dix-Hallpike is atypical, or when the patient has not responded to repositioning maneuvers. Trigger phrases: \"is this BPPV or something else\", \"BPPV not responding to Epley\", \"atypical positional vertigo\", \"mimics of BPPV\", \"positional dizziness differential\"."
 ---
 
 # BPPV Differential Diagnosis Checker

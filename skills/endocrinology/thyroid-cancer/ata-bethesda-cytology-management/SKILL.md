@@ -1,6 +1,6 @@
 ---
 name: ata-bethesda-cytology-management
-description: Guides next-step management after a thyroid FNA result using the Bethesda System for Reporting Thyroid Cytopathology (categories I–VI), integrating clinical risk, sonographic pattern, and molecular testing options. Use when a clinician asks "what do I do with a Bethesda III result", "Bethesda IV FNA what next", "should I repeat FNA or do molecular testing", "FLUS result management", "Bethesda II follow-up interval", or any question about acting on a thyroid FNA cytology report. Source: 2015 ATA Guidelines, Haugen et al., Thyroid 2016;26(1).
+description: "Guides next-step management after a thyroid FNA result using the Bethesda System for Reporting Thyroid Cytopathology (categories I–VI), integrating clinical risk, sonographic pattern, and molecular testing options. Use when a clinician asks \"what do I do with a Bethesda III result\", \"Bethesda IV FNA what next\", \"should I repeat FNA or do molecular testing\", \"FLUS result management\", \"Bethesda II follow-up interval\", or any question about acting on a thyroid FNA cytology report. Source: 2015 ATA Guidelines, Haugen et al., Thyroid 2016;26(1)."
 ---
 
 # ATA Bethesda Cytology Management Tool

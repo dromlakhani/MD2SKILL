@@ -1,6 +1,6 @@
 ---
 name: es-gh-contraindication-tki
-description: This skill determines if growth hormone treatment should be avoided in childhood cancer survivors with short stature who are currently receiving tyrosine kinase inhibitor therapy (e.g., imatinib, dasatinib). Triggers include: “Should I use GH for short stature in a patient on imatinib?” or “Is GH safe with ongoing TKI therapy?”
+description: "This skill determines if growth hormone treatment should be avoided in childhood cancer survivors with short stature who are currently receiving tyrosine kinase inhibitor therapy (e.g., imatinib, dasatinib). Triggers include: “Should I use GH for short stature in a patient on imatinib?” or “Is GH safe with ongoing TKI therapy?”"
 ---
 
 # Assess GH contraindication with tyrosine kinase inhibitors

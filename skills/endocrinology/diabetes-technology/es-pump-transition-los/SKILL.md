@@ -1,6 +1,6 @@
 ---
 name: es-pump-transition-los
-description: Transition insulin pump to scheduled subcutaneous basal bolus insulin when anticipated hospital length of stay exceeds 1 to 2 days and pump expertise is unavailable. Triggers include: "Patient expected to stay >2 days, should we switch pump to scheduled insulin?"
+description: "Transition insulin pump to scheduled subcutaneous basal bolus insulin when anticipated hospital length of stay exceeds 1 to 2 days and pump expertise is unavailable. Triggers include: \"Patient expected to stay >2 days, should we switch pump to scheduled insulin?\""
 ---
 
 # Transition insulin pump to scheduled subcutaneous basal bolus insulin if anticipated length of stay >1-2 days

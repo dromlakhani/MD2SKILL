@@ -1,6 +1,6 @@
 ---
 name: peripheral-vs-central-vertigo
-description: Differentiates peripheral from central causes of vestibular dizziness using nystagmus characteristics, Dix-Hallpike findings, hearing loss, and brainstem signs. Use after vestibular dizziness is confirmed and you need to decide whether this is a benign peripheral cause (BPPV, neuritis) or a central cause (stroke, cerebellar lesion) requiring urgent neuroimaging. Trigger phrases: "is this central or peripheral vertigo", "could this be a stroke", "differentiating vestibular neuritis from stroke", "BPPV vs central", "what type of nystagmus".
+description: "Differentiates peripheral from central causes of vestibular dizziness using nystagmus characteristics, Dix-Hallpike findings, hearing loss, and brainstem signs. Use after vestibular dizziness is confirmed and you need to decide whether this is a benign peripheral cause (BPPV, neuritis) or a central cause (stroke, cerebellar lesion) requiring urgent neuroimaging. Trigger phrases: \"is this central or peripheral vertigo\", \"could this be a stroke\", \"differentiating vestibular neuritis from stroke\", \"BPPV vs central\", \"what type of nystagmus\"."
 ---
 
 # Peripheral vs Central Vertigo Differentiator

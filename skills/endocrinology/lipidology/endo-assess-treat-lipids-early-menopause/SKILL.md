@@ -1,6 +1,6 @@
 ---
 name: endo-assess-treat-lipids-early-menopause
-description: Recommends assessment and treatment of lipids and other cardiovascular risk factors in women who enter menopause early (<40 to 45 years old), with atherosclerotic cardiovascular disease risk calculated and followed after menopause. Clinical triggers include: "Woman with early menopause (<45 years)", "Assessing CV risk in premature ovarian failure", "Lipid evaluation in early menopausal transition".
+description: "Recommends assessment and treatment of lipids and other cardiovascular risk factors in women who enter menopause early (<40 to 45 years old), with atherosclerotic cardiovascular disease risk calculated and followed after menopause. Clinical triggers include: \"Woman with early menopause (<45 years)\", \"Assessing CV risk in premature ovarian failure\", \"Lipid evaluation in early menopausal transition\"."
 ---
 
 # Assessment and treatment of lipids and cardiovascular risk factors in early menopause

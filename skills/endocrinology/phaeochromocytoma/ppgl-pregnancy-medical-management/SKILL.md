@@ -1,6 +1,6 @@
 ---
 name: ppgl-pregnancy-medical-management
-description: Manages PPGL medically in pregnancy by initiating selective alpha‑blockers at diagnosis and adding calcium antagonists (nifedipine or amlodipine) if blood pressure control is insufficient before delivery. Triggers include: 'Pregnant patient diagnosed with PPGL,' 'Requiring blood pressure control in pregnant PPGL patient,' and 'Medical management of PPGL throughout pregnancy.'
+description: "Manages PPGL medically in pregnancy by initiating selective alpha‑blockers at diagnosis and adding calcium antagonists (nifedipine or amlodipine) if blood pressure control is insufficient before delivery. Triggers include: 'Pregnant patient diagnosed with PPGL,' 'Requiring blood pressure control in pregnant PPGL patient,' and 'Medical management of PPGL throughout pregnancy.'"
 ---
 
 # Pregnancy-Specific PPGL Medical Management

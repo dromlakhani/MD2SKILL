@@ -1,6 +1,6 @@
 ---
 name: endo-assess-cgm-smbg-calibrate
-description: Assesses whether a patient performs self-monitoring blood glucose (SMBG) fingerstick calibrations as required for their real-time CGM system. Triggers include: 'Verify patient performs fingerstick calibrations', 'Ensure calibration schedule is followed'.
+description: "Assesses whether a patient performs self-monitoring blood glucose (SMBG) fingerstick calibrations as required for their real-time CGM system. Triggers include: 'Verify patient performs fingerstick calibrations', 'Ensure calibration schedule is followed'."
 ---
 
 # Assess use of SMBG to calibrate CGM system

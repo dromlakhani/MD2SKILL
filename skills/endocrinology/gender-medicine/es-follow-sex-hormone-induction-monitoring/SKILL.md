@@ -1,6 +1,6 @@
 ---
 name: es-follow-sex-hormone-induction-monitoring
-description: Provides schedule for monitoring during sex hormone induction. Trigger: patient initiating gender-affirming hormone therapy (GAHT).
+description: "Provides schedule for monitoring during sex hormone induction. Trigger: patient initiating gender-affirming hormone therapy (GAHT)."
 ---
 
 # Follow monitoring protocol during sex hormone induction

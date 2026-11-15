@@ -1,6 +1,6 @@
 ---
 name: endo-bariatric-eligibility
-description: Determines if a patient is a candidate for bariatric surgery using BMI thresholds: BMI ≥35 kg/m2 with comorbidity or BMI ≥40 kg/m2 regardless of comorbidities. Triggers include when a clinician asks, 'Is this patient eligible for bariatric surgery given their BMI and comorbidities?' or 'Should I refer a patient with BMI 38 and sleep apnea for surgical evaluation?'.
+description: "Determines if a patient is a candidate for bariatric surgery using BMI thresholds: BMI ≥35 kg/m2 with comorbidity or BMI ≥40 kg/m2 regardless of comorbidities. Triggers include when a clinician asks, 'Is this patient eligible for bariatric surgery given their BMI and comorbidities?' or 'Should I refer a patient with BMI 38 and sleep apnea for surgical evaluation?'."
 ---
 
 # Assess bariatric surgery eligibility based on BMI/comorbidity

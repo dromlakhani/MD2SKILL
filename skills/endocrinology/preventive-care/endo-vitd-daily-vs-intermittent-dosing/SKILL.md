@@ -1,6 +1,6 @@
 ---
 name: endo-vitd-daily-vs-intermittent-dosing
-description: Recommends daily lower-dose vitamin D over intermittent high-dose dosing for adults aged 50 years and older who have indications for vitamin D supplementation. Trigger phrases include: "Should I prescribe daily or intermittent vitamin D for this patient?" and "What dosing frequency is best for vitamin D in adults over 50?"
+description: "Recommends daily lower-dose vitamin D over intermittent high-dose dosing for adults aged 50 years and older who have indications for vitamin D supplementation. Trigger phrases include: \"Should I prescribe daily or intermittent vitamin D for this patient?\" and \"What dosing frequency is best for vitamin D in adults over 50?\""
 ---
 
 # Daily vs intermittent vitamin D dosing preference

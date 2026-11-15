@@ -1,6 +1,6 @@
 ---
 name: es-dpp4i-cost-discussion
-description: Discuss cost and overall acceptability of a DPP4 inhibitor with the patient when there are plans to continue the medication after hospital discharge. Trigger phrases include: "Patient wants to continue DPP4i after discharge, should we discuss cost and access?" or "Need to address affordability of sitagliptin/linagliptin before discharge."
+description: "Discuss cost and overall acceptability of a DPP4 inhibitor with the patient when there are plans to continue the medication after hospital discharge. Trigger phrases include: \"Patient wants to continue DPP4i after discharge, should we discuss cost and access?\" or \"Need to address affordability of sitagliptin/linagliptin before discharge.\""
 ---
 
 # Discuss Cost and Overall Acceptability of DPP4i After Discharge

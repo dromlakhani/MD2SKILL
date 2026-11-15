@@ -1,6 +1,6 @@
 ---
 name: ppgl-hnpgl-surveillance-vs-intervention
-description: Decides between surveillance therapy and active intervention for head and neck paraganglioma based on symptomology and tumor behavior. Prefers surveillance for asymptomatic, slow-growing tumors; advises surgical resection or radiation therapy for symptomatic, rapidly growing, or functionally active tumors. Triggers include: 'Newly diagnosed head/neck PGL patient,' 'Assessing management options for HNPGL,' 'Determining if HNPGL requires intervention or observation.'
+description: "Decides between surveillance therapy and active intervention for head and neck paraganglioma based on symptomology and tumor behavior. Prefers surveillance for asymptomatic, slow-growing tumors; advises surgical resection or radiation therapy for symptomatic, rapidly growing, or functionally active tumors. Triggers include: 'Newly diagnosed head/neck PGL patient,' 'Assessing management options for HNPGL,' 'Determining if HNPGL requires intervention or observation.'"
 ---
 
 # Head/Neck PGL Surveillance vs Intervention Decision

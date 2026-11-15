@@ -1,6 +1,6 @@
 ---
 name: endo-tg-check-bile-acid-sequestrant
-description: This skill recommends checking triglyceride levels before and after starting a bile acid sequestrant in patients with elevated triglycerides (150-499 mg/dL). Clinical triggers include: triglyceride level 150-499 mg/dL, consideration of bile acid sequestrant for hypertriglyceridemia, and monitoring of therapeutic response to bile acid sequestrant.
+description: "This skill recommends checking triglyceride levels before and after starting a bile acid sequestrant in patients with elevated triglycerides (150-499 mg/dL). Clinical triggers include: triglyceride level 150-499 mg/dL, consideration of bile acid sequestrant for hypertriglyceridemia, and monitoring of therapeutic response to bile acid sequestrant."
 ---
 
 # Triglyceride monitoring before and after bile acid sequestrant initiation

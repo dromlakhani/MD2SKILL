@@ -1,7 +1,6 @@
 ---
 name: endo-lipid-reassessment-weight-loss-obesity
-description: Reassesses lipid profile after 5% weight loss in obese patients on pharmacological weight loss therapy to evaluate cardiovascular disease and pancreatitis risk.
-Trigger phrases: "Patient on weight loss medication needing lipid check", "Assessing lipid changes after pharmacological weight loss", "Monitoring lipids during obesity pharmacotherapy".
+description: "Reassesses lipid profile after 5% weight loss in obese patients on pharmacological weight loss therapy to evaluate cardiovascular disease and pancreatitis risk. Trigger phrases: \"Patient on weight loss medication needing lipid check\", \"Assessing lipid changes after pharmacological weight loss\", \"Monitoring lipids during obesity pharmacotherapy\"."
 ---
 
 # Lipid profile reassessment after weight loss in obesity on pharmacological therapy

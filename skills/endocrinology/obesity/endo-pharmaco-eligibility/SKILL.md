@@ -1,6 +1,6 @@
 ---
 name: endo-pharmaco-eligibility
-description: Determines if a patient is a candidate for pharmacotherapy based on BMI thresholds: BMI ≥27 kg/m2 with at least one obesity-related comorbidity or BMI ≥30 kg/m2 regardless of comorbidities. Triggered when a clinician asks, “Does this patient qualify for weight‑loss medication based on BMI and comorbidities?” or “Should I consider pharmacotherapy for a patient with BMI 28 and hypertension?”.
+description: "Determines if a patient is a candidate for pharmacotherapy based on BMI thresholds: BMI ≥27 kg/m2 with at least one obesity-related comorbidity or BMI ≥30 kg/m2 regardless of comorbidities. Triggered when a clinician asks, “Does this patient qualify for weight‑loss medication based on BMI and comorbidities?” or “Should I consider pharmacotherapy for a patient with BMI 28 and hypertension?”."
 ---
 
 # Assess pharmacotherapy eligibility based on BMI/comorbidity

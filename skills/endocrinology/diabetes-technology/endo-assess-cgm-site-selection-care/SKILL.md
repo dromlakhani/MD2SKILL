@@ -1,6 +1,6 @@
 ---
 name: endo-assess-cgm-site-selection-care
-description: Evaluates patient’s selection of sensor insertion sites and site care to prevent irritation or infection. Triggers include: 'Review CGM site rotation', 'Check sensor site hygiene and adhesion'.
+description: "Evaluates patient’s selection of sensor insertion sites and site care to prevent irritation or infection. Triggers include: 'Review CGM site rotation', 'Check sensor site hygiene and adhesion'."
 ---
 
 # Assess CGM site selection and care

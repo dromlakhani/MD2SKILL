@@ -1,6 +1,6 @@
 ---
 name: enda-patient-education-stress-dosing-illness-fever
-description: Educates patients with primary adrenal insufficiency on increasing glucocorticoid dosage during intercurrent illness, fever (≥38°C), or physiological stress, including recognition of precipitating symptoms (e.g., fever, vomiting, trauma) and actions to prevent impending adrenal crisis. Trigger phrases: fever, intercurrent illness, stress, vomiting, inability to tolerate oral meds, need for parenteral glucocorticoid.
+description: "Educates patients with primary adrenal insufficiency on increasing glucocorticoid dosage during intercurrent illness, fever (≥38°C), or physiological stress, including recognition of precipitating symptoms (e.g., fever, vomiting, trauma) and actions to prevent impending adrenal crisis. Trigger phrases: fever, intercurrent illness, stress, vomiting, inability to tolerate oral meds, need for parenteral glucocorticoid."
 ---
 
 # Educate Patients on Increasing Glucocorticoid Dosage During Intercurrent Illness, Fever, and Stress

@@ -1,6 +1,6 @@
 ---
 name: es-preop-bg-only-target
-description: If achieving preoperative HbA1c <8% is not feasible, target preoperative blood glucose concentrations of 100 to 180 mg/dL instead. Trigger phrase: "Cannot meet HbA1c goal, what glucose target should we use preoperatively?"
+description: "If achieving preoperative HbA1c <8% is not feasible, target preoperative blood glucose concentrations of 100 to 180 mg/dL instead. Trigger phrase: \"Cannot meet HbA1c goal, what glucose target should we use preoperatively?\""
 ---
 
 # Target preoperative blood glucose 100-180 mg/dL when HbA1c target not feasible

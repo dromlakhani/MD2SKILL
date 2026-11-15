@@ -1,6 +1,6 @@
 ---
 name: endo-hirsutism-start-pharmacologic-therapy-patient-important
-description: Initiates oral contraceptives or other pharmacologic agents as first‑line treatment for women with hirsutism that causes sufficient distress to seek additional treatment despite shaving, plucking, or waxing. Trigger phrase: "She’s tried shaving and waxing but still wants treatment; should we start medicine?"
+description: "Initiates oral contraceptives or other pharmacologic agents as first‑line treatment for women with hirsutism that causes sufficient distress to seek additional treatment despite shaving, plucking, or waxing. Trigger phrase: \"She’s tried shaving and waxing but still wants treatment; should we start medicine?\""
 ---
 
 # Start pharmacologic therapy for patient‑important hirsutism despite cosmetic measures

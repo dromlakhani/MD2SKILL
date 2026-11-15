@@ -1,6 +1,6 @@
 ---
 name: gcih-premeal-insulin-scale
-description: Determine the supplemental premeal short-acting insulin dose for a hospitalised patient on the GCIH protocol, based on premeal capillary blood glucose. Use two separate scales: standard (experimental/Lakhani protocol) and insulin-resistant (control/Endocrine Society). Trigger when a clinician asks "supplemental insulin dose GCIH", "correction dose for steroid patient before meals", "how much lispro to give before meal in GCIH", "sliding scale for steroid hyperglycemia", or needs premeal insulin correction for a patient on glucocorticoids.
+description: "Determine the supplemental premeal short-acting insulin dose for a hospitalised patient on the GCIH protocol, based on premeal capillary blood glucose. Use two separate scales: standard (experimental/Lakhani protocol) and insulin-resistant (control/Endocrine Society). Trigger when a clinician asks \"supplemental insulin dose GCIH\", \"correction dose for steroid patient before meals\", \"how much lispro to give before meal in GCIH\", \"sliding scale for steroid hyperglycemia\", or needs premeal insulin correction for a patient on glucocorticoids."
 ---
 
 # GCIH Supplemental Premeal Insulin Scale

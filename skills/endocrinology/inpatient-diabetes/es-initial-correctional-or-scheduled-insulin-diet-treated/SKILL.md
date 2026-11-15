@@ -1,6 +1,6 @@
 ---
 name: es-initial-correctional-or-scheduled-insulin-diet-treated
-description: In adults with diabetes treated with diet or noninsulin medications before admission, suggest initial therapy with correctional insulin or scheduled insulin to maintain glucose targets of 100–180 mg/dL. Trigger phrase: "Patient on diet or noninsulin meds before admission, start with correctional or scheduled insulin?"
+description: "In adults with diabetes treated with diet or noninsulin medications before admission, suggest initial therapy with correctional insulin or scheduled insulin to maintain glucose targets of 100–180 mg/dL. Trigger phrase: \"Patient on diet or noninsulin meds before admission, start with correctional or scheduled insulin?\""
 ---
 
 # Initiate correctional insulin or scheduled insulin therapy for patients with diabetes treated with diet or noninsulin medications prior to admission

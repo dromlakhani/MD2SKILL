@@ -1,6 +1,6 @@
 ---
 name: es-gh-treatment-oncologist-consult
-description: This skill determines when to discuss growth hormone treatment appropriateness and timing with the oncologist for childhood cancer survivors who have chronic stable disease (not definitively disease-free) following malignant disease treatment. Triggers include: "Should I involve oncology in GH decision for this survivor with stable disease?" or "Is oncologist input needed for GH timing in persistent disease?"
+description: "This skill determines when to discuss growth hormone treatment appropriateness and timing with the oncologist for childhood cancer survivors who have chronic stable disease (not definitively disease-free) following malignant disease treatment. Triggers include: \"Should I involve oncology in GH decision for this survivor with stable disease?\" or \"Is oncologist input needed for GH timing in persistent disease?\""
 ---
 
 # Assess need for oncologist consultation for GH therapy

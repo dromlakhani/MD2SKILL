@@ -1,6 +1,6 @@
 ---
 name: endo-plasmapheresis-consideration-extraordinarily-elevated-tg
-description: Suggests plasmapheresis may be useful in patients who do not respond to conventional triglyceride-lowering methods, such as those with triglyceride levels over 10,000 mg/dL or in extremely high-risk situations like pregnancy. Triggers include: "TG >10,000 mg/dL unresponsive to conventional therapy", "Considering plasmapheresis for severe hypertriglyceridemia", "Pregnant patient with extreme TG elevation".
+description: "Suggests plasmapheresis may be useful in patients who do not respond to conventional triglyceride-lowering methods, such as those with triglyceride levels over 10,000 mg/dL or in extremely high-risk situations like pregnancy. Triggers include: \"TG >10,000 mg/dL unresponsive to conventional therapy\", \"Considering plasmapheresis for severe hypertriglyceridemia\", \"Pregnant patient with extreme TG elevation\"."
 ---
 
 # Consider plasmapheresis for extraordinarily elevated triglyceride levels

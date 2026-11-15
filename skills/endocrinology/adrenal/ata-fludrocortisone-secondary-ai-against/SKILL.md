@@ -1,6 +1,6 @@
 ---
 name: ata-fludrocortisone-secondary-ai-against
-description: Recommends against using fludrocortisone for mineralocorticoid replacement in patients with secondary adrenal insufficiency. Trigger phrases include: considering mineralocorticoid replacement for secondary adrenal insufficiency and secondary adrenal insufficiency patient needing mineralocorticoid replacement.
+description: "Recommends against using fludrocortisone for mineralocorticoid replacement in patients with secondary adrenal insufficiency. Trigger phrases include: considering mineralocorticoid replacement for secondary adrenal insufficiency and secondary adrenal insufficiency patient needing mineralocorticoid replacement."
 ---
 
 # Recommend against fludrocortisone use in secondary adrenal insufficiency

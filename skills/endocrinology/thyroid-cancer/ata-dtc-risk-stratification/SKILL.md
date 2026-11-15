@@ -1,6 +1,6 @@
 ---
 name: ata-dtc-risk-stratification
-description: Assigns ATA initial risk of recurrence (Low / Intermediate / High) to a patient with differentiated thyroid cancer (DTC) after surgery, using the ATA 2009 Modified Risk Stratification System. Use when a clinician asks "what is the ATA risk for this DTC patient", "is this low or high risk thyroid cancer", "how do I risk-stratify this thyroid cancer after surgery", "ATA risk tier for DTC", "does this patient need RAI", "what follow-up does this thyroid cancer patient need", or any post-surgical risk classification question for PTC or FTC. Source: 2015 ATA Guidelines, Haugen et al., Thyroid 2016;26(1).
+description: "Assigns ATA initial risk of recurrence (Low / Intermediate / High) to a patient with differentiated thyroid cancer (DTC) after surgery, using the ATA 2009 Modified Risk Stratification System. Use when a clinician asks \"what is the ATA risk for this DTC patient\", \"is this low or high risk thyroid cancer\", \"how do I risk-stratify this thyroid cancer after surgery\", \"ATA risk tier for DTC\", \"does this patient need RAI\", \"what follow-up does this thyroid cancer patient need\", or any post-surgical risk classification question for PTC or FTC. Source: 2015 ATA Guidelines, Haugen et al., Thyroid 2016;26(1)."
 ---
 
 # ATA DTC Initial Risk Stratification Tool

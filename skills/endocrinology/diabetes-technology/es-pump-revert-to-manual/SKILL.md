@@ -1,6 +1,6 @@
 ---
 name: es-pump-revert-to-manual
-description: If CGM fails or is removed, revert the insulin pump to manual mode provided basic criteria for pump use in hospital are still met. Trigger phrase: "CGM failed, should we switch pump to manual mode?"
+description: "If CGM fails or is removed, revert the insulin pump to manual mode provided basic criteria for pump use in hospital are still met. Trigger phrase: \"CGM failed, should we switch pump to manual mode?\""
 ---
 
 # Revert insulin pump to manual mode if CGM fails or is removed

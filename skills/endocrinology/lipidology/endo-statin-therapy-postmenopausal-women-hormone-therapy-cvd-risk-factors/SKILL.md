@@ -1,6 +1,6 @@
 ---
 name: endo-statin-therapy-postmenopausal-women-hormone-therapy-cvd-risk-factors
-description: Recommends statin therapy to reduce cardiovascular risk in postmenopausal women on hormone therapy who have additional cardiovascular risk factors. Trigger phrases include: "Postmenopausal woman on HRT with CVD risk factors", "Assessing statin need in hormone-treated menopause", "Evaluating cardiovascular protection in hormone therapy users".
+description: "Recommends statin therapy to reduce cardiovascular risk in postmenopausal women on hormone therapy who have additional cardiovascular risk factors. Trigger phrases include: \"Postmenopausal woman on HRT with CVD risk factors\", \"Assessing statin need in hormone-treated menopause\", \"Evaluating cardiovascular protection in hormone therapy users\"."
 ---
 
 # Statin therapy for postmenopausal women on hormone therapy with cardiovascular risk factors

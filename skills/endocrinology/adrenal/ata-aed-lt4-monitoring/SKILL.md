@@ -1,6 +1,6 @@
 ---
 name: ata-aed-lt4-monitoring
-description: In central hypothyroidism patients receiving levothyroxine who initiate enzyme‑inducing antiepileptic drugs, the guideline recommends checking free T4 at least 6 weeks after AED start and increasing the levothyroxine dose if free T4 falls below the target range. Triggers include: central hypothyroidism patient on levothyroxine starting antiepileptic drug such as phenytoin, carbamazepine, or oxcarbazepine.
+description: "In central hypothyroidism patients receiving levothyroxine who initiate enzyme‑inducing antiepileptic drugs, the guideline recommends checking free T4 at least 6 weeks after AED start and increasing the levothyroxine dose if free T4 falls below the target range. Triggers include: central hypothyroidism patient on levothyroxine starting antiepileptic drug such as phenytoin, carbamazepine, or oxcarbazepine."
 ---
 
 # Monitor free T4 and adjust levothyroxine after starting antiepileptic drugs in central hypothyroidism

@@ -1,6 +1,6 @@
 ---
 name: es-initial-correctional-insulin-no-prior-diabetes
-description: In adults with no prior diabetes hospitalized for noncritical illness and hyperglycemia >140 mg/dL, initiate correctional insulin rather than scheduled insulin to maintain glucose 100-180 mg/dL. Trigger phrase: "New hyperglycemia >140, start with correctional or scheduled insulin?"
+description: "In adults with no prior diabetes hospitalized for noncritical illness and hyperglycemia >140 mg/dL, initiate correctional insulin rather than scheduled insulin to maintain glucose 100-180 mg/dL. Trigger phrase: \"New hyperglycemia >140, start with correctional or scheduled insulin?\""
 ---
 
 # Initiate correctional insulin over scheduled insulin for patients with no prior diabetes and hyperglycemia >140 mg/dL

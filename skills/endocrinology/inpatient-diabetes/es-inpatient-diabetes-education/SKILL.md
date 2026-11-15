@@ -1,6 +1,6 @@
 ---
 name: es-inpatient-diabetes-education
-description: Provides inpatient diabetes education integrated into discharge planning for adults with diabetes hospitalized for noncritical illness. Triggered by the question: "Should we provide diabetes education before discharge?"
+description: "Provides inpatient diabetes education integrated into discharge planning for adults with diabetes hospitalized for noncritical illness. Triggered by the question: \"Should we provide diabetes education before discharge?\""
 ---
 
 # Provide inpatient diabetes education as part of discharge planning

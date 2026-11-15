@@ -1,6 +1,6 @@
 ---
 name: es-tshd-diagnostic-avoid
-description: This skill determines whether serum triiodothyronine, thyroid-stimulating hormone surge analysis, or thyrotropin-releasing hormone stimulation should be used to diagnose thyroid-stimulating hormone deficiency in childhood cancer survivors. Triggers include: "Can I use T3 levels to diagnose central hypothyroidism?" or "Is TRH stimulation test appropriate for TSHD evaluation?"
+description: "This skill determines whether serum triiodothyronine, thyroid-stimulating hormone surge analysis, or thyrotropin-releasing hormone stimulation should be used to diagnose thyroid-stimulating hormone deficiency in childhood cancer survivors. Triggers include: \"Can I use T3 levels to diagnose central hypothyroidism?\" or \"Is TRH stimulation test appropriate for TSHD evaluation?\""
 ---
 
 # Avoid specific tests for TSHD diagnosis

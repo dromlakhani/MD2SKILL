@@ -1,6 +1,6 @@
 ---
 name: endo-fibrates-t2d-retinopathy-progression
-description: Suggests fibrates in addition to statins to reduce retinopathy progression in adults with type 2 diabetes and diabetic retinopathy. Triggers include: "Patient with T2D and diabetic retinopathy", "Considering fibrate for retinopathy protection", "Assessing retinopathy progression prevention in diabetes".
+description: "Suggests fibrates in addition to statins to reduce retinopathy progression in adults with type 2 diabetes and diabetic retinopathy. Triggers include: \"Patient with T2D and diabetic retinopathy\", \"Considering fibrate for retinopathy protection\", \"Assessing retinopathy progression prevention in diabetes\"."
 ---
 
 # Fibrates in addition to statins for diabetic retinopathy progression in type 2 diabetes

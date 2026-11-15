@@ -1,6 +1,6 @@
 ---
 name: ppgl-metastasis-risk-assessment-genetic
-description: Determines metastasis risk in PPGL using SDHB immunohistochemistry and genetic testing; integrates SDHB loss with tumor size, necrosis, vascular invasion, and S100 loss into COPPS score. Triggers include: 'PPGL tumor tissue available for immunohistochemistry,' 'Genetic testing reveals SDHB variant,' 'Assessing metastatic potential from genetic profile.'
+description: "Determines metastasis risk in PPGL using SDHB immunohistochemistry and genetic testing; integrates SDHB loss with tumor size, necrosis, vascular invasion, and S100 loss into COPPS score. Triggers include: 'PPGL tumor tissue available for immunohistochemistry,' 'Genetic testing reveals SDHB variant,' 'Assessing metastatic potential from genetic profile.'"
 ---
 
 # PPGL Metastasis Risk Assessment Using Genetic Markers

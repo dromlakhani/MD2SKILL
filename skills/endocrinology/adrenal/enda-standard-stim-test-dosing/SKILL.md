@@ -1,6 +1,6 @@
 ---
 name: enda-standard-stim-test-dosing
-description: The Endocrine Society recommends a standard-dose corticotropin (ACTH) stimulation test to confirm primary adrenal insufficiency when clinical suspicion arises from symptoms such as hypotension, hyponatremia, hyperkalemia, or unexplained fatigue. Dosing is weight/age based: 250 µg for adults and children ≥2 years, 15 µg/kg for infants, and 125 µg for children <2 years.
+description: "The Endocrine Society recommends a standard-dose corticotropin (ACTH) stimulation test to confirm primary adrenal insufficiency when clinical suspicion arises from symptoms such as hypotension, hyponatremia, hyperkalemia, or unexplained fatigue. Dosing is weight/age based: 250 µg for adults and children ≥2 years, 15 µg/kg for infants, and 125 µg for children <2 years."
 ---
 
 # Administer Standard Dose Corticotropin Stimulation Test with Age/Weight-Based Dosing

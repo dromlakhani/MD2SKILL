@@ -1,6 +1,6 @@
 ---
 name: endo-against-gh-replacement-ssolely-ldl-c-reduction-growth-hormone-deficiency
-description: This skill recommends against using growth hormone replacement solely to lower LDL‑C to reduce cardiovascular risk in adult patients with growth hormone deficiency. Trigger phrases include: "Considering GH replacement for lipid lowering in GHD", "Assessing inappropriate use of GH therapy", "Evaluating GH treatment indications in growth hormone deficiency".
+description: "This skill recommends against using growth hormone replacement solely to lower LDL‑C to reduce cardiovascular risk in adult patients with growth hormone deficiency. Trigger phrases include: \"Considering GH replacement for lipid lowering in GHD\", \"Assessing inappropriate use of GH therapy\", \"Evaluating GH treatment indications in growth hormone deficiency\"."
 ---
 
 # Avoid using growth hormone replacement solely to lower LDL-C to reduce cardiovascular risk in growth hormone deficiency

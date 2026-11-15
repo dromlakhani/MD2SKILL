@@ -1,6 +1,6 @@
 ---
 name: basal-insulin-titration
-description: Adjust basal insulin dose (Lantus, Basaglar, Ryzodeg/IDegAsp) based on fasting blood glucose trend. Use when a clinician asks how to titrate basal insulin, whether to increase or decrease Lantus/glargine/degludec/Ryzodeg dose, or how to adjust basal insulin based on fasting glucose readings. Triggers include: "adjust basal insulin", "titrate Lantus", "basal dose change", "FBG is high/low", "should I increase/decrease insulin".
+description: "Adjust basal insulin dose (Lantus, Basaglar, Ryzodeg/IDegAsp) based on fasting blood glucose trend. Use when a clinician asks how to titrate basal insulin, whether to increase or decrease Lantus/glargine/degludec/Ryzodeg dose, or how to adjust basal insulin based on fasting glucose readings. Triggers include: \"adjust basal insulin\", \"titrate Lantus\", \"basal dose change\", \"FBG is high/low\", \"should I increase/decrease insulin\"."
 ---
 
 # Basal Insulin Titration — Proprietary Protocol

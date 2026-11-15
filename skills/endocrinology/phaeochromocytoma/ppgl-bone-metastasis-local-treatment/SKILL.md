@@ -1,6 +1,6 @@
 ---
 name: ppgl-bone-metastasis-local-treatment
-description: Selects between external radiation therapy and surgical intervention for bone metastases in PPGL based on lesion characteristics and patient factors. Triggers include: PPGL patient with confirmed bone metastasis, assessing local treatment options for osseous PPGL lesions, determining radiation vs surgery for spinal PPGL metastasis.
+description: "Selects between external radiation therapy and surgical intervention for bone metastases in PPGL based on lesion characteristics and patient factors. Triggers include: PPGL patient with confirmed bone metastasis, assessing local treatment options for osseous PPGL lesions, determining radiation vs surgery for spinal PPGL metastasis."
 ---
 
 # Bone Metastasis Local Treatment Selection for PPGL

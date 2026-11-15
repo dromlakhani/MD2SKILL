@@ -1,6 +1,6 @@
 ---
 name: ata-rai-decision
-description: Decides whether radioactive iodine (RAI) remnant ablation or adjuvant therapy is indicated after thyroidectomy for differentiated thyroid cancer, using ATA risk tier and specific pathologic features. Use when a clinician asks "does this DTC patient need RAI", "should I give radioiodine after thyroidectomy", "is RAI indicated for low risk thyroid cancer", "RAI for intermediate risk DTC", "radioactive iodine dosing for thyroid cancer", "RAI for lymph node metastases", or any question about post-surgical RAI decision-making in PTC or FTC. Source: 2015 ATA Guidelines, Haugen et al., Thyroid 2016;26(1).
+description: "Decides whether radioactive iodine (RAI) remnant ablation or adjuvant therapy is indicated after thyroidectomy for differentiated thyroid cancer, using ATA risk tier and specific pathologic features. Use when a clinician asks \"does this DTC patient need RAI\", \"should I give radioiodine after thyroidectomy\", \"is RAI indicated for low risk thyroid cancer\", \"RAI for intermediate risk DTC\", \"radioactive iodine dosing for thyroid cancer\", \"RAI for lymph node metastases\", or any question about post-surgical RAI decision-making in PTC or FTC. Source: 2015 ATA Guidelines, Haugen et al., Thyroid 2016;26(1)."
 ---
 
 # ATA RAI Remnant Ablation / Adjuvant Therapy Decision Tool

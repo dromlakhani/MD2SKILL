@@ -1,6 +1,6 @@
 ---
 name: ata-ddavp-di-management
-description: Individualizes desmopressin (DDAVP) therapeutic schedules for diabetes insipidus, educates patients on overdose risk, and recommends a weekly polyuria phase to assess medication wear‑off. Triggered when initiating DDAVP for diabetes insipidus (e.g., “Use when starting DDAVP for diabetes insipidus…” or “Triggers include: diabetes insipidus requiring desmopressin therapy”).
+description: "Individualizes desmopressin (DDAVP) therapeutic schedules for diabetes insipidus, educates patients on overdose risk, and recommends a weekly polyuria phase to assess medication wear‑off. Triggered when initiating DDAVP for diabetes insipidus (e.g., “Use when starting DDAVP for diabetes insipidus…” or “Triggers include: diabetes insipidus requiring desmopressin therapy”)."
 ---
 
 # Manage diabetes insipidus with desmopressin

@@ -1,6 +1,6 @@
 ---
 name: es-check-age-gonadectomy-hysterectomy-surgery
-description: Determines whether a patient meets the minimum age requirement (≥18 years or legal age of majority) for genital surgery that includes gonadectomy and/or hysterectomy. Trigger phrase: patient requests gonadectomy or hysterectomy as part of gender-affirming genital surgery.
+description: "Determines whether a patient meets the minimum age requirement (≥18 years or legal age of majority) for genital surgery that includes gonadectomy and/or hysterectomy. Trigger phrase: patient requests gonadectomy or hysterectomy as part of gender-affirming genital surgery."
 ---
 
 # Check age eligibility for surgery with gonadectomy/hysterectomy

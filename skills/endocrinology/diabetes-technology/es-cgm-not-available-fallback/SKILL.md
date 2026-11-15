@@ -1,6 +1,6 @@
 ---
 name: es-cgm-not-available-fallback
-description: If CGM is not available, continue monitoring blood glucose with point-of-care testing as an alternative option. Trigger phrases include: "CGM is not available, what should we use for glucose monitoring?"
+description: "If CGM is not available, continue monitoring blood glucose with point-of-care testing as an alternative option. Trigger phrases include: \"CGM is not available, what should we use for glucose monitoring?\""
 ---
 
 # Fallback to POC-BG when CGM unavailable

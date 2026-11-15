@@ -1,6 +1,6 @@
 ---
 name: endo-statin-selection-renal-clearance-chronic-kidney-disease
-description: Recommends considering renal clearance when selecting a statin in chronic kidney disease, preferring pitavastatin, pravastatin, and rosuvastatin which have partial kidney clearance over atorvastatin, fluvastatin, lovastatin, and simvastatin which are cleared via the liver. Triggers include: Patient with CKD needing statin selection, Assessing statin safety in renal impairment, Choosing appropriate statin for kidney function.
+description: "Recommends considering renal clearance when selecting a statin in chronic kidney disease, preferring pitavastatin, pravastatin, and rosuvastatin which have partial kidney clearance over atorvastatin, fluvastatin, lovastatin, and simvastatin which are cleared via the liver. Triggers include: Patient with CKD needing statin selection, Assessing statin safety in renal impairment, Choosing appropriate statin for kidney function."
 ---
 
 # Select statin based on renal clearance in chronic kidney disease

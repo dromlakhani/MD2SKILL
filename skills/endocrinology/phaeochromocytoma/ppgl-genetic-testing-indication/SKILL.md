@@ -1,6 +1,6 @@
 ---
 name: ppgl-genetic-testing-indication
-description: Determines when to suggest genetic testing for PPGL and educates patients about hereditary PPGL prevalence and testing significance, recommending testing for all PPGL patients per international guidelines while informing about the 20-40% hereditary rate and implications for family screening. Triggers include: 'Newly diagnosed PPGL patient,' 'Discussing hereditary risk with PPGL patient,' 'Considering genetic testing for PPGL patient and family.'
+description: "Determines when to suggest genetic testing for PPGL and educates patients about hereditary PPGL prevalence and testing significance, recommending testing for all PPGL patients per international guidelines while informing about the 20-40% hereditary rate and implications for family screening. Triggers include: 'Newly diagnosed PPGL patient,' 'Discussing hereditary risk with PPGL patient,' 'Considering genetic testing for PPGL patient and family.'"
 ---
 
 # PPGL Genetic Testing Indication and Patient Education

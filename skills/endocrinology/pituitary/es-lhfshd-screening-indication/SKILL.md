@@ -1,6 +1,6 @@
 ---
 name: es-lhfshd-screening-indication
-description: This skill identifies childhood cancer survivors who require screening for luteinizing hormone/follicle-stimulating hormone deficiency based on hypothalamic-pituitary axis radiation exposure ≥30 Gy or history of tumors/surgery affecting the HP region. Triggers include: “Does this survivor need LH/FSHD screening?” or “Is gonadotropin deficiency evaluation indicated post‑cranial radiation?”
+description: "This skill identifies childhood cancer survivors who require screening for luteinizing hormone/follicle-stimulating hormone deficiency based on hypothalamic-pituitary axis radiation exposure ≥30 Gy or history of tumors/surgery affecting the HP region. Triggers include: “Does this survivor need LH/FSHD screening?” or “Is gonadotropin deficiency evaluation indicated post‑cranial radiation?”"
 ---
 
 # Screen for LH/FSHD indication

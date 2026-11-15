@@ -1,6 +1,6 @@
 ---
 name: enda-follow-up-visits-age-based
-description: Determines follow‑up interval for patients with primary adrenal insufficiency (PAI) based on age: annual visits for adults and children, and every 3–4 months for infants. Triggered when establishing routine endocrine care after PAI diagnosis or during stable management.
+description: "Determines follow‑up interval for patients with primary adrenal insufficiency (PAI) based on age: annual visits for adults and children, and every 3–4 months for infants. Triggered when establishing routine endocrine care after PAI diagnosis or during stable management."
 ---
 
 # Schedule Follow-Up Visits Based on Age: Annual for Adults/Children, Every 3-4 Months for Infants

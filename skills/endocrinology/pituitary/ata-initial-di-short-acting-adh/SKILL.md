@@ -1,6 +1,6 @@
 ---
 name: ata-initial-di-short-acting-adh
-description: Suggests initial therapy for diabetes insipidus utilizes short-acting aqueous ADH, allowing safer use in the vast majority of cases where DI resolves spontaneously. Triggers include: new diabetes insipidus diagnosis requiring initial therapy, use when starting diabetes insipidus treatment.
+description: "Suggests initial therapy for diabetes insipidus utilizes short-acting aqueous ADH, allowing safer use in the vast majority of cases where DI resolves spontaneously. Triggers include: new diabetes insipidus diagnosis requiring initial therapy, use when starting diabetes insipidus treatment."
 ---
 
 # Initiate diabetes insipidus therapy with short-acting aqueous ADH

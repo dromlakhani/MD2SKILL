@@ -1,6 +1,6 @@
 ---
 name: eu-tirads-classifier
-description: Classify a thyroid nodule using the EU-TIRADS system from an ultrasound image or US report, and give a risk-stratified FNA recommendation. Use when a clinician shares a thyroid ultrasound image or describes US features of a nodule and asks "what is the EU-TIRADS category", "is this nodule suspicious", "does this need a biopsy", "what is the risk of malignancy", "should I do FNA on this nodule", "interpret this thyroid ultrasound", or "rate this thyroid nodule". Also triggers on: "thyroid US report", "TIRADS score", "thyroid nodule risk stratification", "classify this nodule", or any thyroid nodule ultrasound interpretation request.
+description: "Classify a thyroid nodule using the EU-TIRADS system from an ultrasound image or US report, and give a risk-stratified FNA recommendation. Use when a clinician shares a thyroid ultrasound image or describes US features of a nodule and asks \"what is the EU-TIRADS category\", \"is this nodule suspicious\", \"does this need a biopsy\", \"what is the risk of malignancy\", \"should I do FNA on this nodule\", \"interpret this thyroid ultrasound\", or \"rate this thyroid nodule\". Also triggers on: \"thyroid US report\", \"TIRADS score\", \"thyroid nodule risk stratification\", \"classify this nodule\", or any thyroid nodule ultrasound interpretation request."
 ---
 
 # EU-TIRADS Thyroid Nodule Classifier

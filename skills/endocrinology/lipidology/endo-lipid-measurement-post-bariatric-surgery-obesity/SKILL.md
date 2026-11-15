@@ -1,6 +1,6 @@
 ---
 name: endo-lipid-measurement-post-bariatric-surgery-obesity
-description: Recommends lipid profile measurement after bariatric surgery to assess cardiovascular risk in patients with obesity (BMI >40 or >35 kg/m2 with comorbidities). Clinical triggers include: patient post-bariatric surgery needing lipid assessment, assessing cardiovascular risk after bariatric procedure, lipid check following weight loss surgery.
+description: "Recommends lipid profile measurement after bariatric surgery to assess cardiovascular risk in patients with obesity (BMI >40 or >35 kg/m2 with comorbidities). Clinical triggers include: patient post-bariatric surgery needing lipid assessment, assessing cardiovascular risk after bariatric procedure, lipid check following weight loss surgery."
 ---
 
 # Lipid profile measurement after bariatric surgery in obesity

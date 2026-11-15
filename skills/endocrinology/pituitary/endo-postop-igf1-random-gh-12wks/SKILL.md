@@ -1,6 +1,6 @@
 ---
 name: endo-postop-igf1-random-gh-12wks
-description: Measures serum IGF-1 and a random GH level at 12 weeks or later after transsphenoidal surgery for acromegaly to evaluate biochemical remission. Trigger phrases: “postoperative follow‑up at 12 weeks”, “assess remission after surgery”, “check IGF‑1 and random GH”.
+description: "Measures serum IGF-1 and a random GH level at 12 weeks or later after transsphenoidal surgery for acromegaly to evaluate biochemical remission. Trigger phrases: “postoperative follow‑up at 12 weeks”, “assess remission after surgery”, “check IGF‑1 and random GH”."
 ---
 
 # Measure IGF-1 and random GH at 12 weeks post‑op

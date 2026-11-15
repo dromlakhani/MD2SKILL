@@ -1,6 +1,6 @@
 ---
 name: es-cc-implementation-feasibility
-description: In hospitals where expertise, resources, and training are available, implement carbohydrate counting or fixed prandial insulin dosing for prandial insulin therapy. Trigger phrase: “We have the expertise and resources, which prandial dosing method should we use?”
+description: "In hospitals where expertise, resources, and training are available, implement carbohydrate counting or fixed prandial insulin dosing for prandial insulin therapy. Trigger phrase: “We have the expertise and resources, which prandial dosing method should we use?”"
 ---
 
 # Implement carbohydrate counting or fixed prandial insulin dosing when expertise, resources, and training are available

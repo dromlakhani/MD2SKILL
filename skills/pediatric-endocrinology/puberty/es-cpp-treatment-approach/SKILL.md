@@ -1,6 +1,6 @@
 ---
 name: es-cpp-treatment-approach
-description: This skill determines the appropriate indications and treatment regimens for central precocious puberty in childhood cancer survivors, recommending to follow the same approaches (e.g., GnRHa therapy) used in the noncancer population. Triggers include: "How should I treat central precocious puberty in this survivor?" or "What GnRHa regimen is suitable for CPP in childhood cancer?"
+description: "This skill determines the appropriate indications and treatment regimens for central precocious puberty in childhood cancer survivors, recommending to follow the same approaches (e.g., GnRHa therapy) used in the noncancer population. Triggers include: \"How should I treat central precocious puberty in this survivor?\" or \"What GnRHa regimen is suitable for CPP in childhood cancer?\""
 ---
 
 # Select CPP treatment strategy

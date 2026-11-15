@@ -1,6 +1,6 @@
 ---
 name: endo-csii-cgm-education-training-support
-description: Suggests that adults with type 1 or type 2 diabetes using continuous subcutaneous insulin infusion (CSII) and continuous glucose monitoring (CGM) receive education, training, and ongoing support to achieve and maintain individualized glycemic goals. Trigger phrases include: 'Patient on pump plus CGM, arrange education' and 'Ensure CSII+CGM users get training and support'.
+description: "Suggests that adults with type 1 or type 2 diabetes using continuous subcutaneous insulin infusion (CSII) and continuous glucose monitoring (CGM) receive education, training, and ongoing support to achieve and maintain individualized glycemic goals. Trigger phrases include: 'Patient on pump plus CGM, arrange education' and 'Ensure CSII+CGM users get training and support'."
 ---
 
 # Suggest education/training/support for CSII and CGM users

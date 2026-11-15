@@ -1,6 +1,6 @@
 ---
 name: ppgl-123i-mibg-indication
-description: Determines when to use 123I-MIBG scintigraphy for PPGL diagnosis and whether thyroid blockade is required. Triggers include: need functional imaging to confirm PPGL origin, evaluating for metastatic PPGL or PGL, preparing for 131I-MIBG therapy requires baseline scintigraphy.
+description: "Determines when to use 123I-MIBG scintigraphy for PPGL diagnosis and whether thyroid blockade is required. Triggers include: need functional imaging to confirm PPGL origin, evaluating for metastatic PPGL or PGL, preparing for 131I-MIBG therapy requires baseline scintigraphy."
 ---
 
 # 123I-MIBG Scintigraphy Indication for PPGL

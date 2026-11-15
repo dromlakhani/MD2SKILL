@@ -1,6 +1,6 @@
 ---
 name: endo-statin-initiation-specific-risk-thresholds
-description: This skill advises initiation of statin as adjunct to diet and exercise after discussion of risks/benefits when LDL-C >70 mg/dL and 10-year ASCVD risk >7.5%, or ASCVD risk 5% to 7.4% plus 1+ risk-enhancing factors, or CAC score >75th percentile for age/sex/race, or CAC score >100. Trigger phrases include: "LDL-C >70 mg/dL with high ASCVD risk", "Intermediate risk plus risk-enhancing factors", "Elevated CAC score indicating need for statin".
+description: "This skill advises initiation of statin as adjunct to diet and exercise after discussion of risks/benefits when LDL-C >70 mg/dL and 10-year ASCVD risk >7.5%, or ASCVD risk 5% to 7.4% plus 1+ risk-enhancing factors, or CAC score >75th percentile for age/sex/race, or CAC score >100. Trigger phrases include: \"LDL-C >70 mg/dL with high ASCVD risk\", \"Intermediate risk plus risk-enhancing factors\", \"Elevated CAC score indicating need for statin\"."
 ---
 
 # Statin initiation based on LDL-C, ASCVD risk, risk-enhancing factors, and CAC score

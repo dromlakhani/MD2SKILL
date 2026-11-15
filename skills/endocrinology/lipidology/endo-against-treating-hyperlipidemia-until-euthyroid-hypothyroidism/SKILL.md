@@ -1,6 +1,6 @@
 ---
 name: endo-against-treating-hyperlipidemia-until-euthyroid-hypothyroidism
-description: Suggests against treating hyperlipidemia until the patient becomes euthyroid in order to more accurately assess the lipid profile in patients with overt hypothyroidism. Triggers include: "Patient with overt hypothyroidism and hyperlipidemia", "Considering lipid-lowering therapy in untreated hypothyroidism", "Assessing need to treat thyroid first before lipids".
+description: "Suggests against treating hyperlipidemia until the patient becomes euthyroid in order to more accurately assess the lipid profile in patients with overt hypothyroidism. Triggers include: \"Patient with overt hypothyroidism and hyperlipidemia\", \"Considering lipid-lowering therapy in untreated hypothyroidism\", \"Assessing need to treat thyroid first before lipids\"."
 ---
 
 # Avoid treating hyperlipidemia until euthyroid in overt hypothyroidism

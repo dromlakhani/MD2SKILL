@@ -1,6 +1,6 @@
 ---
 name: ata-dtc-dynamic-risk
-description: Reclassifies differentiated thyroid cancer (DTC) patients at 6–24 months after initial therapy using ATA response-to-therapy categories (Excellent / Biochemical Incomplete / Structural Incomplete / Indeterminate) to guide ongoing surveillance intensity, TSH suppression targets, and further treatment. Use when a clinician asks "how is my thyroid cancer patient doing at follow-up", "what does a detectable Tg mean after thyroidectomy", "how do I interpret a low Tg with negative imaging", "is this an excellent response to RAI", "indeterminate response DTC what next", "when can I reduce TSH suppression", or any question about reassessing DTC risk at follow-up. Source: 2015 ATA Guidelines, Haugen et al., Thyroid 2016;26(1).
+description: "Reclassifies differentiated thyroid cancer (DTC) patients at 6–24 months after initial therapy using ATA response-to-therapy categories (Excellent / Biochemical Incomplete / Structural Incomplete / Indeterminate) to guide ongoing surveillance intensity, TSH suppression targets, and further treatment. Use when a clinician asks \"how is my thyroid cancer patient doing at follow-up\", \"what does a detectable Tg mean after thyroidectomy\", \"how do I interpret a low Tg with negative imaging\", \"is this an excellent response to RAI\", \"indeterminate response DTC what next\", \"when can I reduce TSH suppression\", or any question about reassessing DTC risk at follow-up. Source: 2015 ATA Guidelines, Haugen et al., Thyroid 2016;26(1)."
 ---
 
 # ATA DTC Dynamic Risk Stratification Tool

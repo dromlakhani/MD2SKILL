@@ -1,6 +1,6 @@
 ---
 name: endo-csii-continue-hospital-if-protocols
-description: Suggests that clinicians continue CSII in hospitalized patients with type 1 or type 2 diabetes when the institution has clear protocols for evaluating pump candidates and appropriate monitoring and safety procedures. Trigger phrases include: 'Admitted patient on pump, check hospital pump policy' and 'Inpatient with diabetes using pump, verify institutional guidelines'.
+description: "Suggests that clinicians continue CSII in hospitalized patients with type 1 or type 2 diabetes when the institution has clear protocols for evaluating pump candidates and appropriate monitoring and safety procedures. Trigger phrases include: 'Admitted patient on pump, check hospital pump policy' and 'Inpatient with diabetes using pump, verify institutional guidelines'."
 ---
 
 # Suggest continuing CSII in hospital if protocols exist

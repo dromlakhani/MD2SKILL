@@ -1,6 +1,6 @@
 ---
 name: es-ghc-add-nph-to-bbi
-description: In patients already on a basal bolus insulin (BBI) regimen who develop hyperglycemia while receiving glucocorticoids, consider adding neutral protamine Hagedorn (NPH) insulin to the regimen. Trigger phrases include: "Patient is on BBI, should we add NPH for steroid coverage?" or "Glucocorticoid-associated hyperglycemia on BBI, consider NPH addition."
+description: "In patients already on a basal bolus insulin (BBI) regimen who develop hyperglycemia while receiving glucocorticoids, consider adding neutral protamine Hagedorn (NPH) insulin to the regimen. Trigger phrases include: \"Patient is on BBI, should we add NPH for steroid coverage?\" or \"Glucocorticoid-associated hyperglycemia on BBI, consider NPH addition.\""
 ---
 
 # Consider adding NPH to existing basal bolus insulin regimen

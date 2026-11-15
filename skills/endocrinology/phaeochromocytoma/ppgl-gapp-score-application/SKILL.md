@@ -1,6 +1,6 @@
 ---
 name: ppgl-gapp-score-application
-description: Applies the GAPP score to assess metastasis risk in PPGL based on histopathological features. Triggers include: 'PPGL tumor requiring histopathological risk assessment,' 'Evaluating tumor grade for metastatic potential,' 'Determining follow-up intensity based on histological scoring.'
+description: "Applies the GAPP score to assess metastasis risk in PPGL based on histopathological features. Triggers include: 'PPGL tumor requiring histopathological risk assessment,' 'Evaluating tumor grade for metastatic potential,' 'Determining follow-up intensity based on histological scoring.'"
 ---
 
 # GAPP Score Application for PPGL Metastasis Risk Assessment

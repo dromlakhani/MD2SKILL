@@ -1,6 +1,6 @@
 ---
 name: endo-assess-cgm-understands-not-replace-smbg
-description: Confirms patient understands that continuous glucose monitoring complements but does not replace self-monitoring of blood glucose. Triggers include: 'Clarify CGM role alongside fingersticks', 'Ensure patient knows CGM does not eliminate need for SMBG'.
+description: "Confirms patient understands that continuous glucose monitoring complements but does not replace self-monitoring of blood glucose. Triggers include: 'Clarify CGM role alongside fingersticks', 'Ensure patient knows CGM does not eliminate need for SMBG'."
 ---
 
 # Assess patient understanding that CGM does not replace SMBG

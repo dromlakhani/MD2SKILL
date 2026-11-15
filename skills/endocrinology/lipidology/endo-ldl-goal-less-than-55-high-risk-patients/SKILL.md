@@ -1,6 +1,6 @@
 ---
 name: endo-ldl-goal-less-than-55-high-risk-patients
-description: Recommends LDL-C goal <55 mg/dL in patients with established ASCVD or multiple risk factors to reduce cardiovascular risk. Triggers include: patient with established ASCVD, high-risk patient needing aggressive lipid lowering, assessing LDL-C target in secondary prevention.
+description: "Recommends LDL-C goal <55 mg/dL in patients with established ASCVD or multiple risk factors to reduce cardiovascular risk. Triggers include: patient with established ASCVD, high-risk patient needing aggressive lipid lowering, assessing LDL-C target in secondary prevention."
 ---
 
 # LDL-C goal less than 55 mg/dL for patients with established cardiovascular disease or multiple risk factors

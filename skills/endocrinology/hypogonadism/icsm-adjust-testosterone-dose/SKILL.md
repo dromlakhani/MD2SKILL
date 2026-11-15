@@ -1,6 +1,6 @@
 ---
 name: icsm-adjust-testosterone-dose
-description: Advises adjusting testosterone dose based on serum levels and clinical response: reduce dose if total testosterone consistently exceeds the normal range, escalate if hypogonadal symptoms persist despite sub-mid-normal levels. Triggered when a clinician reviews a patient's testosterone result and symptoms and wonders, "Do I need to change the dose or is the current dose appropriate?"
+description: "Advises adjusting testosterone dose based on serum levels and clinical response: reduce dose if total testosterone consistently exceeds the normal range, escalate if hypogonadal symptoms persist despite sub-mid-normal levels. Triggered when a clinician reviews a patient's testosterone result and symptoms and wonders, \"Do I need to change the dose or is the current dose appropriate?\""
 ---
 
 # Adjust testosterone dose based on serum levels and response

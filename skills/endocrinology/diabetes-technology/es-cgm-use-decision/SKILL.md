@@ -1,6 +1,6 @@
 ---
 name: es-cgm-use-decision
-description: Recommends real-time CGM with confirmatory POC-BG for insulin dosing adjustments in insulin-treated hospitalized adults at high risk of hypoglycemia when resources and training are available. Triggers include: "Should we use CGM for insulin adjustments?" or "Is CGM appropriate for this patient?"
+description: "Recommends real-time CGM with confirmatory POC-BG for insulin dosing adjustments in insulin-treated hospitalized adults at high risk of hypoglycemia when resources and training are available. Triggers include: \"Should we use CGM for insulin adjustments?\" or \"Is CGM appropriate for this patient?\""
 ---
 
 # Decide on CGM Use with Confirmatory POC-BG

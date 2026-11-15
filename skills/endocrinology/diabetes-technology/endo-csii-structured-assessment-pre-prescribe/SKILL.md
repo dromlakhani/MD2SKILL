@@ -1,6 +1,6 @@
 ---
 name: endo-csii-structured-assessment-pre-prescribe
-description: Performs a structured pre‑prescription evaluation of mental/psychological status, prior diabetes self‑care adherence, willingness/interest in CSII, and availability for follow‑up visits. Triggers include: 'Evaluating pump candidacy', 'Pre‑pump checklist: psych, adherence, motivation, follow-up'.
+description: "Performs a structured pre‑prescription evaluation of mental/psychological status, prior diabetes self‑care adherence, willingness/interest in CSII, and availability for follow‑up visits. Triggers include: 'Evaluating pump candidacy', 'Pre‑pump checklist: psych, adherence, motivation, follow-up'."
 ---
 
 # Perform structured assessment before prescribing CSII

@@ -1,6 +1,6 @@
 ---
 name: dizziness-red-flag-screener
-description: Screens any dizzy patient for features that mandate urgent neuroimaging or neurology referral — distinguishing benign peripheral dizziness from a central or life-threatening cause. Use when a patient presents with dizziness and you want to quickly rule out stroke, cerebellar lesion, or other dangerous aetiology before attributing symptoms to a benign cause. Trigger phrases: "could this dizziness be serious", "rule out stroke in dizzy patient", "when to image a dizzy patient", "red flags in dizziness", "urgent referral for dizziness".
+description: "Screens any dizzy patient for features that mandate urgent neuroimaging or neurology referral — distinguishing benign peripheral dizziness from a central or life-threatening cause. Use when a patient presents with dizziness and you want to quickly rule out stroke, cerebellar lesion, or other dangerous aetiology before attributing symptoms to a benign cause. Trigger phrases: \"could this dizziness be serious\", \"rule out stroke in dizzy patient\", \"when to image a dizzy patient\", \"red flags in dizziness\", \"urgent referral for dizziness\"."
 ---
 
 # Dizziness Red Flag Screener

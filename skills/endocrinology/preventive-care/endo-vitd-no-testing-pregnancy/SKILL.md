@@ -1,6 +1,6 @@
 ---
 name: endo-vitd-no-testing-pregnancy
-description: Recommends against routine 25(OH)D testing during pregnancy. Triggers include: "Should I order a vitamin D level for this pregnant patient?" and "Is vitamin D testing indicated for asymptomatic pregnant patients?"
+description: "Recommends against routine 25(OH)D testing during pregnancy. Triggers include: \"Should I order a vitamin D level for this pregnant patient?\" and \"Is vitamin D testing indicated for asymptomatic pregnant patients?\""
 ---
 
 # Against routine vitamin D testing during pregnancy

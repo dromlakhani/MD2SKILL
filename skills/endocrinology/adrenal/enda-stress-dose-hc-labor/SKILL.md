@@ -1,6 +1,6 @@
 ---
 name: enda-stress-dose-hc-labor
-description: Recommends hydrocortisone stress dosing during the active phase of labor for pregnant patients with primary adrenal insufficiency, using a regimen similar to major surgical stress. Trigger phrases: "active phase of labor", "cervix dilation ≥4 cm", "contractions every 5 minutes", "PAI patient in labor".
+description: "Recommends hydrocortisone stress dosing during the active phase of labor for pregnant patients with primary adrenal insufficiency, using a regimen similar to major surgical stress. Trigger phrases: \"active phase of labor\", \"cervix dilation ≥4 cm\", \"contractions every 5 minutes\", \"PAI patient in labor\"."
 ---
 
 # Administer Hydrocortisone Stress Dosing During Active Phase of Labor

@@ -1,6 +1,6 @@
 ---
 name: ata-aed-estrogen-adjustment
-description: In women who have started estrogen replacement, suggests evaluating AED levels and adjusting AED doses as required. Triggers include: woman on estrogen replacement requiring AED management.
+description: "In women who have started estrogen replacement, suggests evaluating AED levels and adjusting AED doses as required. Triggers include: woman on estrogen replacement requiring AED management."
 ---
 
 # Evaluate AED levels and adjust doses in women on estrogen replacement

@@ -1,6 +1,6 @@
 ---
 name: endo-assess-treat-lipids-growth-hormone-deficiency-hypopituitarism
-description: Suggests assessment and treatment of lipids and other cardiovascular risk factors in adults with growth hormone deficiency associated with hypopituitarism. Trigger phrases include: "GHD with hypopituitarism needing lipid management", "Assessing cardiovascular risk in combined pituitary hormone deficiency", "Lipid evaluation in GHD-hypopituitarism".
+description: "Suggests assessment and treatment of lipids and other cardiovascular risk factors in adults with growth hormone deficiency associated with hypopituitarism. Trigger phrases include: \"GHD with hypopituitarism needing lipid management\", \"Assessing cardiovascular risk in combined pituitary hormone deficiency\", \"Lipid evaluation in GHD-hypopituitarism\"."
 ---
 
 # Assessment and treatment of lipids and cardiovascular risk factors in growth hormone deficiency with hypopituitarism

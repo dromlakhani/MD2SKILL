@@ -1,6 +1,6 @@
 ---
 name: endo-measure-lipid-profile-before-after-acromegaly-treatment
-description: Suggests measurement of the usual lipid profile before and after treatment of growth hormone excess in adults with acromegaly. Triggers include: patient with acromegaly starting treatment, assessing lipid changes after GH suppression therapy, lipid monitoring in acromegaly management.
+description: "Suggests measurement of the usual lipid profile before and after treatment of growth hormone excess in adults with acromegaly. Triggers include: patient with acromegaly starting treatment, assessing lipid changes after GH suppression therapy, lipid monitoring in acromegaly management."
 ---
 
 # Measure lipid profile before and after treatment of growth hormone excess in acromegaly

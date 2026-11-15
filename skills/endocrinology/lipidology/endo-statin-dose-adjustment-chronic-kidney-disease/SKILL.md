@@ -1,6 +1,6 @@
 ---
 name: endo-statin-dose-adjustment-chronic-kidney-disease
-description: Recommends dose adjustments for statins in chronic kidney disease, except for atorvastatin and fluvastatin which do not require dose adjustment. Triggers include: "Patient with CKD prescribed statin", "Assessing statin dosing in renal impairment", "Adjusting medication for kidney function".
+description: "Recommends dose adjustments for statins in chronic kidney disease, except for atorvastatin and fluvastatin which do not require dose adjustment. Triggers include: \"Patient with CKD prescribed statin\", \"Assessing statin dosing in renal impairment\", \"Adjusting medication for kidney function\"."
 ---
 
 # Apply statin dose adjustments in chronic kidney disease except for atorvastatin and fluvastatin

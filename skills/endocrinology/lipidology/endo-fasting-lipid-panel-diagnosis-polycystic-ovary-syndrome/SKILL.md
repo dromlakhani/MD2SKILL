@@ -1,6 +1,6 @@
 ---
 name: endo-fasting-lipid-panel-diagnosis-polycystic-ovary-syndrome
-description: Recommends obtaining a fasting screening lipid panel at diagnosis to assess cardiovascular risk in women with polycystic ovary syndrome. Triggers include: "New PCOS diagnosis", "Initial lipid assessment in ovarian disorder", "Baseline cardiovascular risk evaluation in PCOS".
+description: "Recommends obtaining a fasting screening lipid panel at diagnosis to assess cardiovascular risk in women with polycystic ovary syndrome. Triggers include: \"New PCOS diagnosis\", \"Initial lipid assessment in ovarian disorder\", \"Baseline cardiovascular risk evaluation in PCOS\"."
 ---
 
 # Obtain fasting screening lipid panel at diagnosis to assess cardiovascular risk in polycystic ovary syndrome

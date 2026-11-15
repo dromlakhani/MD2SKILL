@@ -1,6 +1,6 @@
 ---
 name: es-ghd-formal-testing-need
-description: This skill determines if formal diagnostic testing for growth hormone deficiency is required in childhood cancer survivors who already have three or more confirmed anterior pituitary hormone deficiencies, as retesting may not change management. Triggers include: "Do I need to test for GHD if the patient already has TSH, LH/FSH, and ACTH deficiencies?" or "Is formal GHD testing redundant with multiple pituitary deficits?"
+description: "This skill determines if formal diagnostic testing for growth hormone deficiency is required in childhood cancer survivors who already have three or more confirmed anterior pituitary hormone deficiencies, as retesting may not change management. Triggers include: \"Do I need to test for GHD if the patient already has TSH, LH/FSH, and ACTH deficiencies?\" or \"Is formal GHD testing redundant with multiple pituitary deficits?\""
 ---
 
 # Assess need for formal GHD testing with multiple deficits

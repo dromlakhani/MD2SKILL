@@ -1,6 +1,6 @@
 ---
 name: es-dpp4i-select-patients
-description: For select adult patients with mild hyperglycemia and type 2 diabetes, the guideline suggests using either a DPP4 inhibitor with correction insulin or scheduled insulin therapy. Trigger phrase: "Patient has mild hyperglycemia and T2D, could we use a DPP4i?"
+description: "For select adult patients with mild hyperglycemia and type 2 diabetes, the guideline suggests using either a DPP4 inhibitor with correction insulin or scheduled insulin therapy. Trigger phrase: \"Patient has mild hyperglycemia and T2D, could we use a DPP4i?\""
 ---
 
 # Consider DPP4i with correction insulin or scheduled insulin for select patients with mild hyperglycemia and type 2 diabetes

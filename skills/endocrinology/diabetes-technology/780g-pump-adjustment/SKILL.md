@@ -1,6 +1,6 @@
 ---
 name: 780g-pump-adjustment
-description: Guide pump setting adjustments for the MiniMed 780G system based on CareLink data, using Medtronic's 3-step follow-up workflow. Use when a clinician has CareLink data for a 780G patient and wants to know what to change — which setting, by how much, and how to program it. Triggers include: "what do I adjust", "how to fix high TIR", "how to reduce hypos", "adjust ICR/ISF/basal", "SmartGuard settings", "780G pump settings review", or any question about optimising 780G therapy after reviewing a download.
+description: "Guide pump setting adjustments for the MiniMed 780G system based on CareLink data, using Medtronic's 3-step follow-up workflow. Use when a clinician has CareLink data for a 780G patient and wants to know what to change — which setting, by how much, and how to program it. Triggers include: \"what do I adjust\", \"how to fix high TIR\", \"how to reduce hypos\", \"adjust ICR/ISF/basal\", \"SmartGuard settings\", \"780G pump settings review\", or any question about optimising 780G therapy after reviewing a download."
 ---
 
 # MiniMed 780G Pump Adjustment Guide (CareLink-Based)

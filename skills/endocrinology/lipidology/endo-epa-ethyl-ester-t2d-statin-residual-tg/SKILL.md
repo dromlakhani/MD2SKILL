@@ -1,6 +1,6 @@
 ---
 name: endo-epa-ethyl-ester-t2d-statin-residual-tg
-description: Suggests adding eicosapentaenoic acid ethyl ester 4 g/day to reduce cardiovascular risk in adults with type 2 diabetes on a statin at LDL goal with residual triglycerides over 150 mg/dL and two additional traditional or risk-enhancing factors. Triggers include: "T2D patient on statin at LDL goal", "Residual TG >150 mg/dL despite statin", "T2D with statin plus 2 additional risk factors".
+description: "Suggests adding eicosapentaenoic acid ethyl ester 4 g/day to reduce cardiovascular risk in adults with type 2 diabetes on a statin at LDL goal with residual triglycerides over 150 mg/dL and two additional traditional or risk-enhancing factors. Triggers include: \"T2D patient on statin at LDL goal\", \"Residual TG >150 mg/dL despite statin\", \"T2D with statin plus 2 additional risk factors\"."
 ---
 
 # Adding EPA ethyl ester for type 2 diabetes on statin with residual hypertriglyceridemia
